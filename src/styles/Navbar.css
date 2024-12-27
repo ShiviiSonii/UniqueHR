@@ -20,6 +20,7 @@
   .nav-bar.sticky {
     background-color: var(--bg-color);
     /* transition: 0.25s all;   */
+    padding: 0.5% 2%;
     backdrop-filter: blur(5px);
     margin: auto;
     width: 100%;

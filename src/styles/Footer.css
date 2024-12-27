@@ -1,11 +1,9 @@
-/* Footer-specific styling */
 .footer {
-    background-color: var(--bg-color);
+    background-color: #d7d4d4;
     color: var(--text-color);
     width: 100%;
     font-family: Arial, sans-serif;
     text-align: center;
-    /* position: fixed; remove later */
     left: 0;
     bottom: 0;
   }
