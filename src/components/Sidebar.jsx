@@ -31,9 +31,6 @@ function Sidebar() {
       <div
         className={`sidebar ${isAnimating ? 'slide-out-left' : 'slide-in-left'}`}
       >
-        <button className="close-button" onClick={closeSidebar}>
-          &times;
-        </button>
         <div className="sidebar-content">
           <div className="menu-section">
             <div className='logo-side'>
@@ -68,6 +65,9 @@ function Sidebar() {
                 <p>Hello@email.com<br />+1 840 841 25 69</p>
               </div>
             </div>
+            <button className="close-button" onClick={closeSidebar}>
+              &times;
+            </button>
           </div>
         </div>
       </div>

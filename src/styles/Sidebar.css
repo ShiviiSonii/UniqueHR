@@ -12,7 +12,7 @@
 
 .close-button {
   position: absolute;
-  top: 20px;
+  top: 22px;
   right: 20px;
   background: none;
   border: none;
@@ -175,7 +175,7 @@
   }
 
   .logo {
-    text-align: center;
+    text-align: left;
     margin-bottom: 20px;
     padding: 20px;
   }
