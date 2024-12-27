@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh; 
+  display: flex;
+  flex-direction: column;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgb(157, 154, 227) 0%,
+    rgba(216, 144, 219, 0.687) 47%,
+    rgba(167, 226, 238, 0.468) 100%
+  );
+}
