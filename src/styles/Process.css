@@ -58,7 +58,7 @@
 
 h2, h3, h4 {
     color: #333; 
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 
 p {

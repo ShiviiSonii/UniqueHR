@@ -5,6 +5,7 @@ import Banner from './components/Banner.jsx'
 import Features from './components/Features.jsx'
 import Process from './components/Process.jsx'
 import TopListing from './components/TopListing.jsx'
+import Highlights from './components/Highlights.jsx'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
         <Banner/>
         <Features/>
         <Process/>
+        <Highlights/>
         <TopListing/>
         <Footer/>
        </BrowserRouter>

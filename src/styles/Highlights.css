@@ -1,0 +1,56 @@
+.highlights-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin: 2% 5%;
+    flex-wrap: wrap;
+  }
+  
+  .highlight {
+    text-align: center;
+    flex: 1;
+}
+  
+  .highlight .icon {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .highlight h3 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+  
+  .highlight ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .highlight ul li {
+    margin: 0.5rem 0;
+  }
+  
+  .highlight ul li:before {
+    content: "✱";
+    margin-right: 0.5rem;
+  }
+  
+
+  @media (max-width: 1024px) {
+    .highlight h3 {
+      font-size: 0.8rem;
+    }
+
+    .highlight ul li {
+      font-size: 0.6rem;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .highlights-container{
+      flex-direction: column;
+    }
+  }
