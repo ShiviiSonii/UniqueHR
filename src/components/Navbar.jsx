@@ -31,9 +31,7 @@ function Navbar() {
   return (
     <>
       <div className={`nav-bar ${isSticky ? 'sticky slide-in-top' : ''}`}>
-        <div className="nav">
-          UniqueHR
-        </div>
+        <img src="https://www.uniquehr.in/img/logo-150.png" alt="logo" height={64} style={{marginLeft:"50px"}}/>
         <div className='nav nav-list'>
           <Link to={"/"} className='links'>Home</Link>
           <Link to={"/jobs"} className='links'>Jobs</Link>

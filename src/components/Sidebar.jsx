@@ -34,8 +34,8 @@ function Sidebar() {
         <div className="sidebar-content">
           <div className="menu-section">
             <div className='logo-side'>
-            <h1 className="logo">UniqueHR</h1>
-            <span className='side-text'>MENU</span>
+              <img src="https://www.uniquehr.in/img/logo-150.png" alt=""  className='logo'/>
+              <span className='side-text'>MENU</span>
             </div>
             <nav className="menu">
               <Link to={"/home"}>HOME</Link>

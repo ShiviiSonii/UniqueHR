@@ -21,12 +21,17 @@
   cursor: pointer;
 }
 
+.logo-side {
+  display: flex;
+  flex-direction: column;
+}
+
 .logo {
-  font-size: 1.6rem;
-  font-weight: bold;
   color: #333;
   margin-bottom: 40px;
   text-align: left;
+  height: 20%;
+  width: 80%;
 }
 
 .side-text {
@@ -157,6 +162,11 @@
     gap: 0;
   }
 
+  .logo {
+    height: 40px;
+    width: 40px;
+  }
+
   .side-text,
   .info-section {
     display: none;
@@ -176,8 +186,6 @@
 
   .logo {
     text-align: left;
-    margin-bottom: 20px;
-    padding: 20px;
   }
 }
 
