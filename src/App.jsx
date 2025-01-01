@@ -6,6 +6,7 @@ import Features from './components/Features.jsx'
 import Process from './components/Process.jsx'
 import TopListing from './components/TopListing.jsx'
 import Highlights from './components/Highlights.jsx'
+import Testimonial from './components/Testimonial.jsx'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
         <Process/>
         <Highlights/>
         <TopListing/>
+        <Testimonial/>
         <Footer/>
        </BrowserRouter>
     </>

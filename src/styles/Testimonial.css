@@ -1,0 +1,136 @@
+.testimonial {
+  background-color: #fff;
+  margin: 6% 5%;
+}
+
+.testimonial-container {
+  display: flex;
+  justify-content:space-between;
+}
+
+.testimonial-main-heading{
+  font-size: 15px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.testimonial-heading {
+  font-size: 40px;
+  font-weight: 600;
+  color: #222;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 10px;
+}
+
+.testimonial-quote {
+  font-size: 32px;
+  color: hsl(0, 0%, 33%);
+  padding-right: 40px;
+  line-height: 3rem;
+  border-bottom: 1px solid grey;
+  padding-bottom: 40px;
+}
+
+.testimonial-content {
+  max-width: 850px;
+}
+
+.quote-mark {
+  font-size: 48px;
+  color: #eee;
+}
+
+.testimonial-author {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.author-image {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.author-info {
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.author-name {
+  font-size: 24px;
+  color: #333;
+  line-height: 0rem;
+}
+
+.author-title {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #008000;
+}
+
+.testimonial-controls {
+  margin-top: 20px;
+}
+
+.control-btn {
+  font-size: 18px;
+  color: #333;
+  background: none;
+  border: 1px solid #ccc;
+  padding: 10px 15px;
+  margin: 0 5px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.control-btn:hover {
+  background-color: #f0f0f0;
+}
+
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  .testimonial-container{
+    flex-direction: column;
+
+  }
+
+  .testimonial-heading{
+    font-size: 35px;
+  }
+
+  .testimonial-quote{
+    font-size: 22px;
+    line-height: 2rem;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .testimonial-heading{
+    font-size: 25px;
+  }
+
+  .testimonial-quote{
+    font-size: 18px;
+    line-height: 1.5rem;
+    margin-top: 20px;
+  }
+
+  .testimonial-author{
+    display: block;
+    text-align: center;
+  }
+
+  .author-info{
+    text-align: center;
+    justify-content: flex-start
+  }
+}
