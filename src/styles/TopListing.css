@@ -1,7 +1,22 @@
 .job-list {
   list-style: none;
   padding-left: 0;
-  margin: 2% 5%;
+  margin: 40px 100px 40px 100px;
+}
+
+.listing-main-heading {
+  font-size: 15px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.listing-heading {
+  font-size: 40px;
+  font-weight: 600;
+  color: #222;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 10px;
 }
 
 .job-listing-title {

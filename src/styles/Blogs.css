@@ -1,5 +1,20 @@
 .blog-section{
-  margin: 3%;
+  margin: 40px 100px 40px 100px;
+}
+
+.blog-main-heading {
+  font-size: 15px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.blog-heading {
+  font-size: 40px;
+  font-weight: 600;
+  color: #222;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 10px;
 }
 
 .line-title {

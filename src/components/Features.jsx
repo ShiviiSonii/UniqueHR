@@ -3,8 +3,9 @@ import "../styles/Features.css";
 
 function Features() {
   return (
-    <>
-      <p className="container-title">Features we provide</p>
+    <section className='feature-section'>
+      <span className='feature-main-heading'>Features</span>
+      <p className="feature-heading">What we provide?</p>
 
       <div className="gradient-cards">
         <div className="card">
@@ -55,7 +56,7 @@ function Features() {
           </div>
         </div>
       </div>
-    </>
+    </section>
   );
 }
 

@@ -5,12 +5,12 @@
     height: 100vh;
     display: flex;
     align-items: center;
-    padding: 2% 8%;
 }
 
 .content {
     max-width: 600px;
     color: var(--text-color);
+    margin-left: 100px;
 }
 
 h1 {

@@ -1,19 +1,26 @@
+.feature-section {
+  margin: 40px 100px 40px 100px;
+}
+
+.feature-main-heading{
+  font-size: 15px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.feature-heading {
+  font-size: 40px;
+  font-weight: 600;
+  color: #222;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 10px;
+}
+
 .gradient-cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 32px;
-  padding: 30px;
-  margin: 2% 3%;
-}
-
-.container-title {
-  text-align: center;
-  margin-bottom: 40px;
-  font-size: 40px;
-  margin-top: 40px;
-  color: #333;
-  font-weight: 600;
-  line-height: 60px;
 }
 
 .card {

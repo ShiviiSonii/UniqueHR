@@ -1,12 +1,24 @@
 .process-section {
     display: flex;
     height: 100vh;
-    margin: 2% 5%;
-    border: 1px solid #ccc;
-    background : linear-gradient(71deg, #f0f0f0, #ffffff, #f0f0f0);
-    padding: 25px;
+    margin: 40px 100px 40px 100px;
     border-radius: 10px;
 }
+
+.process-main-heading {
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  .process-heading {
+    font-size: 40px;
+    font-weight: 600;
+    color: #222;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 10px;
+  }
 
 .process-description {
     flex: 1; 

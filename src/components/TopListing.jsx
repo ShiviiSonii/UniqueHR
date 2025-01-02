@@ -32,7 +32,8 @@ function TopListing() {
 
   return (
     <div className="job-list">
-      <p className='job-listing-title'>Top Job Listing</p>
+      <span className='listing-main-heading'>Jobs</span>
+      <p className='listing-heading'>Want a job?</p>
       {jobs.map((job, index) => (
         <div className="job-preview" key={index}>
           <div className="content">

@@ -49,7 +49,9 @@ const BlogSection = () => {
 
   return (
     <section className="blog-section">
-      <h2 className="line-title">Trending Blogs</h2>
+      {/* <h2 className="line-title">Trending Blogs</h2> */}
+      <span className='blog-main-heading'>Blogs</span>
+      <p className='blog-heading'>Trending Blogs</p>
       <div className="custom-carousel">
         {blogs.map((blog, index) => (
           <div
