@@ -28,15 +28,24 @@ function TopListing() {
       experience: "1-3 Years",
       postedAt : "2 weeks ago"
     },
+    {
+      title: "UI/UX Designer",
+      company: "Los Angeles, CA",
+      locationType: "Hybrid",
+      jobType: "Part-Time",
+      experience: "1-3 Years",
+      postedAt : "2 weeks ago"
+    },
   ];
 
   return (
     <div className="job-list">
       <span className='listing-main-heading'>Jobs</span>
       <p className='listing-heading'>Want a job?</p>
+      <div className='job-grids'>
       {jobs.map((job, index) => (
         <div className="job-preview" key={index}>
-          <div className="content">
+          <div className="job-content">
             <h4 className="job-title">{job.title}</h4>
             <p className="job-details">
               <span className="company">
@@ -61,6 +70,7 @@ function TopListing() {
           </Link>
         </div>
       ))}
+      </div>
     </div>
   );
 }

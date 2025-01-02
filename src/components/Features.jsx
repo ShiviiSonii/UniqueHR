@@ -40,21 +40,6 @@ function Features() {
           </div>
         </div>
 
-        <div className="card">
-          <div className="container-card">
-            <i className="fa fa-credit-card fa-4x" style={{ color: '#2E3042' }}></i>
-            <p className="card-title">Simple and Transparent</p>
-            <p className="card-description">Hubble’s fee structure is simple, transparent, and fair—allowing for quick and easy lending.</p>
-          </div>
-        </div>
-
-        <div className="card">
-          <div className="container-card">
-            <i className="fa fa-users fa-4x" style={{ color: '#2FCB89' }}></i>
-            <p className="card-title">Community-Driven</p>
-            <p className="card-description">Our platform is built by the community, for the community, ensuring that we meet your financial needs.</p>
-          </div>
-        </div>
       </div>
     </section>
   );

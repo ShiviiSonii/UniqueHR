@@ -19,7 +19,7 @@
 
 .gradient-cards {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 32px;
 }
 
@@ -36,12 +36,12 @@
 
 .container-card {
   position: relative;
-  border: 2px solid #ccc;
   background: linear-gradient(71deg, #f0f0f0, #ffffff, #f0f0f0);
   background-clip: padding-box;
-  border-radius: 45px;
+  border-radius: 15px;
   padding: 40px;
   display: flex;
+  align-items: flex-start;
   flex-direction: column;
   height: 100%;
 }
@@ -49,29 +49,27 @@
 .card-title {
   font-weight: 600;
   color: #333;
-  letter-spacing: -0.02em;
-  line-height: 40px;
-  font-size: 28px;
-  padding-top: 15px;
-  text-align: center;
+  font-size: 24px;
+  padding-top: 20px;
+  text-align: left;
 }
 
 .card-description {
   font-weight: 600;
-  line-height: 32px;
   color: #666;
   font-size: 16px;
-  text-align: center;
+  text-align: left;
+  margin-top: -8px;
 }
 
-.container-card:hover {
+/* .container-card:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-}
+} */
 
-.card:hover {
+/* .card:hover {
   transform: scale(1.05);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
-}
+} */
 
 @media (max-width: 768px) {
   .gradient-cards {

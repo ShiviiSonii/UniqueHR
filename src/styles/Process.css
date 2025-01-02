@@ -11,6 +11,11 @@
     text-transform: uppercase;
   }
 
+  .process-main-description{
+    font-size: 50px;
+    line-height: 4.2rem;
+  }
+
   .process-heading {
     font-size: 40px;
     font-weight: 600;
@@ -26,12 +31,14 @@
 }
 
 .process-item-heading {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     margin-top: 20px;
 }
 
 .process-item-description {
     font-size: 1rem;
+    line-height: 1.8rem;
+    margin-top: -28px;
 }
 
 .process-img {
@@ -60,7 +67,6 @@
     padding: 15px;
     border-radius: 5px; 
     background-color: #fff; 
-    box-shadow: 0px 2px 5px rgba(0,0,0,0.1); 
 }
 
 
