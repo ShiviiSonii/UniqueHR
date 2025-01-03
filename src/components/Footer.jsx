@@ -7,13 +7,13 @@ const Footer = () => {
     <footer class="footer">
     <div class="footer-container">
       <div class="footer-section">
-        <h3 class="footer-logo">InFolio</h3>
+        <img src="https://www.uniquehr.in/img/logo-150.png" alt="logo" className='footer-logo'/>
       </div>
       <div className='footer-section'>
       <div class="footer-address">
         <h3>Address</h3>
-          <p>5919 Trussville Crossings Pkwy, Birmingham</p>
-          <Link to="tel:+24563432445" class="footer-phone">+2 456 (343) 24 45</Link>
+          <p>Bengaluru</p>
+          <Link to="tel:7090492913" class="footer-phone">7090492913</Link>
         </div>
       </div>
       <div class="footer-section">

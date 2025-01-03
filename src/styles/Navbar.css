@@ -56,7 +56,12 @@
   }
 
   .nav-list .active {
-    border-bottom: 1px solid black;
+    /* border-bottom: 1px solid black; */
+    color: var(--main-heading);
+  }
+
+  .links:hover{
+    color: var(--main-heading);
   }
   
   .links {

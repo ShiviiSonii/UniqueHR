@@ -54,7 +54,6 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* margin-top: 40px; */
 }
 
 .author-image {
@@ -79,7 +78,7 @@
 .author-title {
   font-size: 16px;
   text-transform: uppercase;
-  color: #008000;
+  color: var(--main-heading);
 }
 
 .testimonial-controls {
@@ -178,6 +177,7 @@
 .rating-stars {
   font-size: 2rem;
   margin: 10px 0;
+  color: var(--main-heading);
 }
 
 .review-count {
