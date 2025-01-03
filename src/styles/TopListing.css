@@ -1,13 +1,20 @@
 .job-list {
   list-style: none;
   padding-left: 0;
-  margin: 40px 100px 40px 100px;
+  margin: 40px 100px 100px 100px;
 }
 
 .listing-main-heading {
-  font-size: 15px;
+  font-size: 16px;
   letter-spacing: 1px;
   text-transform: uppercase;
+  font-weight: 400;
+  color: var(--main-heading);
+}
+
+.listing-main-heading::before{
+  content: "✱";
+  margin-right: 0.5rem;
 }
 
 .listing-heading {
@@ -96,10 +103,18 @@
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 599px) {
   .job-preview {
     flex-direction: column; 
     align-items: flex-start; 
+  }
+
+  .job-grids{
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .job-list{
+    margin: 40px 20px 40px 20px;
   }
 
   .btn-apply {
@@ -118,7 +133,7 @@
   }
 }
 
-@media (max-width: 900px) {
+@media (min-width: 600px) and (max-width: 1024px) {
   .job-preview {
     flex-direction: column; 
     align-items: flex-start; 
@@ -131,5 +146,9 @@
 
   .job-listing-title {
     font-size: 28px; 
+  }
+
+  .job-list{
+    margin: 40px 70px 100px 70px;
   }
 }

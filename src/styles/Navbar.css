@@ -52,6 +52,7 @@
     justify-content: space-between;
     align-items: center;
     gap: 2.5rem;
+    text-transform: uppercase;
   }
 
   .active {
@@ -118,8 +119,16 @@
     display: none;
   }
 
+  .nav{
+    margin: 0;
+  }
+
   .nav-bar {
     margin-top: 20px;
     padding: 0;
+  }
+
+  .nav-logo{
+    margin-left: 10px;
   }
 }

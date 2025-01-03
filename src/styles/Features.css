@@ -1,20 +1,29 @@
 .feature-section {
-  margin: 40px 100px 40px 100px;
+  margin: 40px 100px 100px 100px;
 }
 
 .feature-main-heading{
-  font-size: 15px;
+  font-size: 16px;
   letter-spacing: 1px;
   text-transform: uppercase;
+  font-weight: 400;
+  color: var(--main-heading);
+}
+
+.feature-main-heading::before{
+  content: "✱";
+  margin-right: 0.5rem;
 }
 
 .feature-heading {
-  font-size: 40px;
+  font-size: 50px;
   font-weight: 600;
   color: #222;
   text-transform: uppercase;
   letter-spacing: 1px;
-  margin-top: 10px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+
 }
 
 .gradient-cards {
@@ -36,7 +45,8 @@
 
 .container-card {
   position: relative;
-  background: linear-gradient(71deg, #f0f0f0, #ffffff, #f0f0f0);
+  /* background: linear-gradient(71deg, #f0f0f0, #ffffff, #f0f0f0); */
+  background-color: #dfdada;
   background-clip: padding-box;
   border-radius: 15px;
   padding: 40px;
@@ -87,10 +97,18 @@
   .container-title{
     font-size: 30px;
   }
+
+  .feature-section {
+    margin: 40px 20px 40px 20px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .gradient-cards {
     grid-template-columns: repeat(2, 1fr); 
+  }
+
+  .feature-section {
+    margin: 40px 70px 100px 70px;
   }
 }

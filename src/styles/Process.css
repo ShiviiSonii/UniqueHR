@@ -1,14 +1,21 @@
 .process-section {
     display: flex;
     height: 100vh;
-    margin: 40px 100px 40px 100px;
+    margin: 40px 100px 100px 100px;
     border-radius: 10px;
 }
 
 .process-main-heading {
-    font-size: 15px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: var(--main-heading);
+  }
+
+  .process-main-heading::before{
+    content: "✱";
+    margin-right: 0.5rem;
   }
 
   .process-main-description{
@@ -88,6 +95,10 @@ p {
     .process-img {
       max-width: 500px;
     }
+
+    .process-section{
+      margin: 40px 70px 100px 70px;
+    }
   }
   
 
@@ -95,6 +106,7 @@ p {
     .process-section {
       display: block;
       overflow: scroll;
+      margin: 40px 20px 40px 20px;
     }
 
     .process-list {

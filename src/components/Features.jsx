@@ -4,8 +4,8 @@ import "../styles/Features.css";
 function Features() {
   return (
     <section className='feature-section'>
-      <span className='feature-main-heading'>Features</span>
-      <p className="feature-heading">What we provide?</p>
+      <span className='feature-main-heading'>Our Features</span>
+      <p className="feature-heading">What we offer</p>
 
       <div className="gradient-cards">
         <div className="card">

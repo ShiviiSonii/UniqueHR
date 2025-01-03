@@ -41,10 +41,20 @@ const TestimonialSlider = () => {
 
   return (
     <section className="testimonial">
+       <span className="testimonial-main-heading">Testimonials</span>
+       <div className="testimonial-heading">Read what they have to say about working with us</div>
       <div className="testimonial-container">
-        <div>
+        {/* <div>
             <span className="testimonial-main-heading">Testimonials</span>
             <div className="testimonial-heading">What People Say?</div>
+        </div> */}
+        <div class="rating-card">
+          <div class="rating-score">4.9</div>
+          <div class="rating-stars">
+            <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+          </div>
+          <div class="review-count">(40+ Reviews)</div>
+          <p class="description">Customer experiences that speak for themselves</p>
         </div>
         <div className="testimonial-content">
           <p className="testimonial-quote">
@@ -54,7 +64,7 @@ const TestimonialSlider = () => {
           </p>
           <div className="testimonial-author">
             <div className="author-info">
-                <img src={image} alt={name} className="author-image" />
+                {/* <img src={image} alt={name} className="author-image" /> */}
                 <div>
                     <p className="author-name">{name}</p>
                     <p className="author-title">{title}</p>

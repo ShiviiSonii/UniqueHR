@@ -4,7 +4,7 @@
     padding: 3rem;
     border-radius: 20px;
     border: 1px solid black;
-    margin: 40px 100px 40px 100px;
+    margin: 40px 100px 100px 100px;
     flex-wrap: wrap;
   }
   
@@ -47,10 +47,15 @@
     .highlight ul li {
       font-size: 0.6rem;
     }
+
+    .highlights-container{
+      margin: 40px 70px 100px 70px;
+    }
   }
 
   @media (max-width: 600px) {
     .highlights-container{
       flex-direction: column;
+      margin: 40px 20px 40px 20px;
     }
   }
