@@ -46,9 +46,10 @@
 .container-card {
   position: relative;
   /* background: linear-gradient(71deg, #f0f0f0, #ffffff, #f0f0f0); */
-  background-color: #dfdada;
+  background-color: rgb(252,252,252);
   background-clip: padding-box;
   border-radius: 15px;
+  border: 1px solid rgb(220, 213, 213);
   padding: 40px;
   display: flex;
   align-items: flex-start;

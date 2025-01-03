@@ -58,7 +58,7 @@ const BlogSection = () => {
             key={index}
             className={`item ${index === 0 ? "active" : ""}`}
             // style={{ backgroundImage: `url(${blog.image})` }}
-            style={{backgroundColor : "black" }}
+            // style={{backgroundColor : "black" }}
             onClick={handleItemClick}
           >
             <div className="item-desc">

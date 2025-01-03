@@ -55,7 +55,7 @@
     text-transform: uppercase;
   }
 
-  .active {
+  .nav-list .active {
     border-bottom: 1px solid black;
   }
   
