@@ -39,7 +39,7 @@
   }
   
 
-  @media (max-width: 1024px) {
+  @media (min-width:769px) and (max-width: 1024px) {
     .highlight h3 {
       font-size: 0.8rem;
     }
@@ -53,9 +53,10 @@
     }
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: 768px) {
     .highlights-container{
       flex-direction: column;
       margin: 40px 20px 40px 20px;
+      padding: 1rem;
     }
   }

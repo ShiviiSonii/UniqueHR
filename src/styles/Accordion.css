@@ -67,11 +67,17 @@
     margin-left: 14px;
 }
 
-@media screen and (max-width: 767px) {
+@media (max-width: 768px) {
     .accordion-container {
         margin: 40px 20px 40px 20px;
     }
     .accordion h1 {
         font-size: 22px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .accordion-container {
+        margin: 40px 70px 100px 70px;
     }
 }

@@ -98,7 +98,7 @@ p {
 }
 
 
- @media (min-width: 600px) and (max-width: 1024px) {
+ @media (min-width: 769px) and (max-width: 1024px) {
     .process-img {
       max-width: 500px;
     }
@@ -110,7 +110,7 @@ p {
   }
   
 
-  @media (max-width: 599px) {
+  @media (max-width: 768px) {
     .process-section {
       display: block;
       overflow: scroll;
@@ -144,4 +144,5 @@ p {
       font-size: 0.8rem;
     }
   }
+  
   

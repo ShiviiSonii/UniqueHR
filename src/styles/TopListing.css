@@ -103,7 +103,7 @@
 }
 
 
-@media (max-width: 599px) {
+@media (max-width: 768px) {
   .job-preview {
     flex-direction: column; 
     align-items: flex-start; 
@@ -133,7 +133,8 @@
   }
 }
 
-@media (min-width: 600px) and (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1024px) {
+
   .job-preview {
     flex-direction: column; 
     align-items: flex-start; 

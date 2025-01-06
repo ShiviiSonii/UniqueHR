@@ -103,7 +103,7 @@
 
 
 /* Responsive Styles */
-@media (max-width: 1024px) {
+@media (min-width:769px) and (max-width: 1024px) {
   .testimonial-container{
     flex-direction: column;
   }
@@ -121,9 +121,13 @@
     line-height: 2rem;
     margin-top: 20px;
   }
+
+  .rating-card{
+    margin: auto;
+  }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .testimonial-heading{
     font-size: 25px;
   }
@@ -135,6 +139,7 @@
   .testimonial-container{
     align-items: center;
     gap: 20px;
+    flex-direction: column;
   }
 
   .testimonial-quote{

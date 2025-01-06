@@ -98,13 +98,13 @@
   color: #cccccc;
 }
 
-@media (max-width: 820px) {
+@media (min-width:769px) and (max-width: 1024px) {
   .footer-container {
     margin: 40px 70px 100px 70px;
   }
 }
 
-@media (max-width: 599px) {
+@media (max-width: 768px) {
   .footer-container {
     margin: 40px 20px 40px 20px;
   }

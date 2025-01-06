@@ -104,7 +104,7 @@
   }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1024px) {
   .gradient-cards {
     grid-template-columns: repeat(2, 1fr); 
   }
@@ -113,3 +113,5 @@
     margin: 40px 70px 100px 70px;
   }
 }
+
+
