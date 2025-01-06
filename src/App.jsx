@@ -9,6 +9,7 @@ import Highlights from './components/Highlights.jsx'
 import Testimonial from './components/Testimonial.jsx'
 import Blogs from './components/Blogs.jsx'
 import AboveFooter from './components/AboveFooter.jsx'
+import Accordion from './components/Accordion.jsx'
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
         <TopListing/>
         <Testimonial/>
         <Blogs/>
+        <Accordion/>
         <AboveFooter/>
         <Footer/>
        </BrowserRouter>

@@ -37,10 +37,10 @@ const Footer = () => {
     </div>
     <div class="footer-bottom">
       <div class="social-links">
-        <Link to={""}>Facebook</Link>
-        <Link to={""}>Website</Link>
-        <Link to={""}>LinkedIn</Link>
-        <Link to={""}>Instagram</Link>
+        <Link to={""}><i class="fa-brands fa-facebook"></i></Link>
+        <Link to={""}><i class="fa-brands fa-linkedin"></i></Link>
+        <Link to={""}><i class="fa-brands fa-instagram"></i></Link>
+        <Link to={""}><i class="fa-brands fa-square-x-twitter"></i></Link>
         </div>
       <p>&copy; 2024 UniqueHR</p>
     </div>

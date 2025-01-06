@@ -6,7 +6,7 @@
   text-align: center;
   left: 0;
   bottom: 0;
-  padding: 20px 0;
+  padding: 20px 0 0 0;
 }
 
 .footer-container {
@@ -79,9 +79,6 @@
   background-color: #1a1a1a;
 }
 
-.social-links {
-  font-size: 14px;
-}
 
 .social-links a {
   margin-right: 15px;
