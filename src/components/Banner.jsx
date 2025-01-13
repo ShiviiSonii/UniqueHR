@@ -26,7 +26,7 @@ function Banner() {
               <br/>
               Ready for something <span className="highlight">{sliderTexts[textIndex]}?</span>
             </p>
-            <button className="banner-btn">Register Now</button>
+            <button className="banner-btn">Sign Up for Free</button>
           </div>
           <div className="content-img">
             <img src={BannerImg} alt="Career Opportunities" />
