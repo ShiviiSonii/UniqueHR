@@ -1,5 +1,11 @@
 :root {
-  --text-color : #0f0707;
+  --text-color : #1a1a1a;
   --bg-color : #fff;
-  --main-heading : #d0a96b;
+  --main-heading : #b4925e;
+}
+
+[data-theme="dark"] {
+  --text-color : #fff;
+  --bg-color : #1a1a1a;
+  /* --main-heading : #b4925e; */
 }

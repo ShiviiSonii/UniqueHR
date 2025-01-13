@@ -30,8 +30,8 @@
 }
 
 .cta .btn {
-  background-color: black;
-  color: #fff;
+  background-color: var(--bg-color);
+  color: var(--text-color);
   font-size: 20px;
   border-radius: 30px;
   padding: 12px 30px;

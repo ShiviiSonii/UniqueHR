@@ -40,7 +40,7 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  background: #fff;
+  background: var(--bg-color);
   border: 1px solid #d7e2e9;
   border-radius: 0.4rem;
   padding: 1.5rem 2rem;
@@ -98,7 +98,7 @@
 
 .btn-apply:hover {
   background-color: #393a5f;
-  color: #fff;
+  color: var(--text-color);
   border: 2px solid #393a5f;
 }
 

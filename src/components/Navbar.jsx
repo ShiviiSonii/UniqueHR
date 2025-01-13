@@ -3,6 +3,7 @@ import "../styles/Navbar.css";
 import MenuIcon from "../assets/menu.png";
 import { Link } from 'react-router-dom';
 import Sidebar from './Sidebar.jsx';  
+import DarkMode from './DarkMode.jsx';
 
 function Navbar() {
   const [isSticky, setIsSticky] = useState(false);
@@ -39,6 +40,7 @@ function Navbar() {
           <Link to={"/partners"} className='links'>Partners</Link>
           <Link to={"/contact"} className='links'>Contact</Link>
         </div>
+        <DarkMode/>
         <img 
           src={MenuIcon} 
           alt="Menu Icon" 
