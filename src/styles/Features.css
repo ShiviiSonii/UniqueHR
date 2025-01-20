@@ -1,5 +1,10 @@
+.feature{
+  background-color: var(--bg-color);
+}
+
 .feature-section {
-  margin: 40px 100px 100px 100px;
+  /* margin: 40px 100px 100px 100px; */
+  padding: 40px 100px;
 }
 
 .feature-main-heading{
@@ -18,7 +23,7 @@
 .feature-heading {
   font-size: 50px;
   font-weight: 600;
-  color: #222;
+  color: var(--text-color);
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-top: 20px;
@@ -46,7 +51,7 @@
 .container-card {
   position: relative;
   /* background: linear-gradient(71deg, #f0f0f0, #ffffff, #f0f0f0); */
-  background-color: rgb(252,252,252);
+  background-color: var(--bg-color);
   background-clip: padding-box;
   border-radius: 15px;
   border: 1px solid rgb(220, 213, 213);
@@ -59,7 +64,7 @@
 
 .card-title {
   font-weight: 600;
-  color: #333;
+  color: var(--text-color);
   font-size: 24px;
   padding-top: 20px;
   text-align: left;
@@ -67,7 +72,7 @@
 
 .card-description {
   font-weight: 600;
-  color: #666;
+  color: var(--text-color);
   font-size: 16px;
   text-align: left;
   margin-top: -8px;

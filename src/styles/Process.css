@@ -1,8 +1,9 @@
 .process-section {
     display: flex;
     height: 100vh;
-    margin: 40px 100px 100px 100px;
-    border-radius: 10px;
+    /* margin: 40px 100px 100px 100px; */
+    padding: 40px 100px;
+    background-color: var(--bg-color);
 }
 
 .process-main-heading {
@@ -26,7 +27,7 @@
   .process-heading {
     font-size: 40px;
     font-weight: 600;
-    color: #222;
+    color: var(--text-color);
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-top: 10px;
@@ -89,12 +90,12 @@
 }
 
 h2, h3, h4 {
-    color: #333; 
+    color: var(--text-color); 
     /* text-transform: uppercase; */
 }
 
 p {
-    color: #666; 
+    color: var(--text-color); 
 }
 
 
