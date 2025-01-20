@@ -21,7 +21,12 @@
 
   .process-main-description{
     font-size: 50px;
-    line-height: 4.2rem;
+    line-height: 4rem;
+  }
+
+  .process-description-span{
+    font-weight: 800;
+    color: var(--main-heading);
   }
 
   .process-heading {
@@ -42,7 +47,7 @@
   margin-left: 35px;
   border: 1px solid rgb(220, 213, 213);
   margin-top: 4%;
-  margin-bottom: 4%;
+  margin-bottom: 10%;
 }
 
 .process-item-heading {
@@ -54,6 +59,7 @@
     font-size: 1rem;
     line-height: 1.8rem;
     margin-top: -28px;
+    color: var(--p-color);
 }
 
 .process-img {
@@ -105,7 +111,8 @@ p {
     }
 
     .process-section{
-      margin: 40px 70px 100px 70px;
+      /* margin: 40px 70px 100px 70px; */
+      padding: 40px 70px;
     }
   
   }
@@ -115,7 +122,8 @@ p {
     .process-section {
       display: block;
       overflow: scroll;
-      margin: 40px 20px 40px 20px;
+      /* margin: 40px 20px 40px 20px; */
+      padding: 40px 20px;
     }
 
     .process-list {

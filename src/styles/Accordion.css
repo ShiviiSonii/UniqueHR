@@ -30,10 +30,12 @@
     display: flex;
     flex-direction: column;
 }
+
 .accordion h1 {
     font-size: 32px;
     text-align: center;
 }
+
 .accordion-item {
     margin-top: 16px;
     border: 1px solid var(--text-color);
@@ -42,6 +44,7 @@
     box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
     color: var(--text-color);
 }
+
 .accordion-item .accordion-item-title {
     position: relative;
     margin: 0;
@@ -55,6 +58,7 @@
     box-sizing: border-box;
     align-items: center;
 }
+
 .accordion-item .accordion-item-desc {
     display: none;
     font-size: 14px;
@@ -62,7 +66,8 @@
     font-weight: 300;
     color: var(--text-color);
     border-top: 1px dashed #ddd;
-    padding: 10px 20px 20px;
+    padding: 25px 20px 25px;
+    background-color: #ffffffec;
     box-sizing: border-box;
 }
 .accordion-item input[type="checkbox"] {
@@ -94,7 +99,8 @@
 
 @media (max-width: 768px) {
     .accordion-container {
-        margin: 40px 20px 40px 20px;
+        /* margin: 40px 20px 40px 20px; */
+        padding: 40px 20px;
     }
     .accordion h1 {
         font-size: 22px;
@@ -103,6 +109,7 @@
 
 @media (min-width: 769px) and (max-width: 1024px) {
     .accordion-container {
-        margin: 40px 70px 100px 70px;
+        /* margin: 40px 70px 100px 70px; */
+        padding: 40px 70px;
     }
 }

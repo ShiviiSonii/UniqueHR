@@ -77,14 +77,16 @@
     }
 
     .highlights-container{
-      margin: 40px 70px 100px 70px;
+      /* margin: 40px 70px 100px 70px; */
+      padding: 40px 70px;
     }
   }
 
   @media (max-width: 768px) {
     .highlights-container{
       flex-direction: column;
-      margin: 40px 20px 40px 20px;
+      /* margin: 40px 20px 40px 20px; */
+      padding: 40px 20px;
       padding: 1rem;
     }
   }

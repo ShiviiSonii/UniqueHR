@@ -39,7 +39,7 @@ const DarkMode = () => {
   return (
     <div className="toggle-theme-wrapper">
       <div onClick={toggleTheme} id="theme-toggle">
-        {theme === "dark" ? (
+        {theme === "light" ? (
           // <i className="fa-solid fa-sun">Sun</i> 
          <img src={Sun} height={20} width={20} alt="" />
         ) : (
