@@ -1,5 +1,29 @@
 .accordion-container{
-    margin: 40px 100px 100px 100px;
+    /* margin: 40px 100px 100px 100px; */
+    padding: 40px 100px;
+    background-color: var(--bg-color);
+}
+
+.accordion-main-heading{
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: var(--main-heading);
+}
+
+.accordion-main-heading::before {
+    content: "✱";
+    margin-right: 0.5rem;
+}
+
+.accordion-heading{
+    font-size: 40px;
+    font-weight: 600;
+    color: var(--text-color);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 10px;
 }
 
 .accordion {
@@ -12,10 +36,11 @@
 }
 .accordion-item {
     margin-top: 16px;
-    border: 1px solid #fcfcfc;
+    border: 1px solid var(--text-color);
     border-radius: 6px;
     background: var(--bg-color);
     box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+    color: var(--text-color);
 }
 .accordion-item .accordion-item-title {
     position: relative;
@@ -35,7 +60,7 @@
     font-size: 14px;
     line-height: 22px;
     font-weight: 300;
-    color: #444;
+    color: var(--text-color);
     border-top: 1px dashed #ddd;
     padding: 10px 20px 20px;
     box-sizing: border-box;

@@ -4,38 +4,42 @@ import "../styles/Accordion.css"
 function Accordion() {
   return (
     <div className='accordion-container'>
+        <span className='accordion-main-heading'>Commonly Asked</span>
+        <p className='accordion-heading'>Let us clear your doubts
+        </p>
         <div class="accordion">
-            <h1>Frequently Asked Questions</h1>
             <div class="accordion-item">
                 <input type="checkbox" id="accordion1"/>
-                <label for="accordion1" class="accordion-item-title"><span class="icon"></span>What is SEO, and why is it important for online businesses?</label>
-                <div class="accordion-item-desc">SEO, or Search Engine Optimization, is the practice of optimizing a website to improve its visibility on search engines like Google. It involves various techniques to enhance a site's ranking in search results. SEO is crucial for online businesses as it helps drive organic traffic, increases visibility, and ultimately leads to higher conversions.</div>
-            </div>
-
+                <label for="accordion1" class="accordion-item-title"><span class="icon"></span>What is Unique HR?
+                </label>
+                <div class="accordion-item-desc">Unique HR connects talented individuals like you with exciting job opportunities – for free!</div>
+                </div>
             <div class="accordion-item">
                 <input type="checkbox" id="accordion2"/>
-                <label for="accordion2" class="accordion-item-title"><span class="icon"></span>How long does it take to see results from SEO efforts?</label>
-                <div class="accordion-item-desc">The timeline for seeing results from SEO can vary based on several factors, such as the competitiveness of keywords, the current state of the website, and the effectiveness of the SEO strategy. Generally, it may take several weeks to months before noticeable improvements occur. However, long-term commitment to SEO is essential for sustained success.</div>
+                <label for="accordion2" class="accordion-item-title"><span class="icon"></span>How are we better than other job sites?</label>
+                <div class="accordion-item-desc">
+                No Hidden Fees. No Premium Plans. We believe in free access to the best roles. No gimmicks, no locked features.
+                </div>
             </div>
 
             <div class="accordion-item">
                 <input type="checkbox" id="accordion3"/>
-                <label for="accordion3" class="accordion-item-title"><span class="icon"></span>What are the key components of a successful SEO strategy?</label>
-                <div class="accordion-item-desc">A successful SEO strategy involves various components, including keyword research, on-page optimization, quality content creation, link building, technical SEO, and user experience optimization. These elements work together to improve a website's relevance and authority in the eyes of search engines.</div>
+                <label for="accordion3" class="accordion-item-title"><span class="icon"></span>Why should you sign up?</label>
+                <div class="accordion-item-desc">Why not? We prioritize matching you with roles that fit your skills – no spam, no irrelevant interviews, and no endless emails. Just real opportunities, straight to you</div>
             </div>
 
             <div class="accordion-item">
                 <input type="checkbox" id="accordion4"/>
-                <label for="accordion4" class="accordion-item-title"><span class="icon"></span>How does mobile optimization impact SEO?</label>
-                <div class="accordion-item-desc">Mobile optimization is crucial for SEO because search engines prioritize mobile-friendly websites. With the increasing use of smartphones, search engines like Google consider mobile responsiveness as a ranking factor. Websites that provide a seamless experience on mobile devices are more likely to rank higher in search results.</div>
+                <label for="accordion4" class="accordion-item-title"><span class="icon"></span>How can you join us?</label>
+                <div class="accordion-item-desc">It’s simple – sign up, fill in your details, submit your CV, and you’re in!</div>
             </div>
 
             <div class="accordion-item">
                 <input type="checkbox" id="accordion5"/>
-                <label for="accordion5" class="accordion-item-title"><span class="icon"></span>What is the role of backlinks in SEO, and how can they be acquired?</label>
-                <div class="accordion-item-desc">Backlinks, or inbound links from other websites to yours, play a significant role in SEO. They are considered a vote of confidence and can improve a site's authority. Quality over quantity is crucial when acquiring backlinks. Strategies for obtaining backlinks include creating high-quality content, guest posting, reaching out to industry influencers, and participating in community activities. It's important to focus on natural and ethical link-building practices.</div>
+                <label for="accordion5" class="accordion-item-title"><span class="icon"></span>Do we work with big-name companies?
+                </label>
+                <div class="accordion-item-desc">Not yet, but hear us out. While we may not have the biggest names, we offer dream roles with top-notch packages that matter to you. Sometimes, the best jobs come from unexpected places.</div>
             </div>
-
         </div>
     </div>
   )

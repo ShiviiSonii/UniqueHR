@@ -40,6 +40,7 @@ function Navbar() {
           <Link to={"/partners"} className='links'>Partners</Link>
           <Link to={"/contact"} className='links'>Contact</Link>
         </div>
+        <div className='theme-menu'>
         <DarkMode/>
         <img 
           src={MenuIcon} 
@@ -49,6 +50,7 @@ function Navbar() {
           className='nav' 
           onClick={toggleSidebar}  
         />
+        </div>
       </div>
 
       {isSidebarVisible && <Sidebar />}

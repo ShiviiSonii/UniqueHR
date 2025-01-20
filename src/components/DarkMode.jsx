@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
-
+// import "@fortawesome/fontawesome-free/css/all.min.css"; // Ensure Font Awesome is loaded
+import Sun from "../assets/sun.png"
+import Moon from "../assets/moon.png"
 const setDark = () => {
   localStorage.setItem("theme", "dark");
   document.documentElement.setAttribute("data-theme", "dark");
@@ -12,7 +14,6 @@ const setLight = () => {
 
 const DarkMode = () => {
   const [theme, setTheme] = useState(() => {
-    // Initialize theme from localStorage or system preferences
     const storedTheme = localStorage.getItem("theme");
     const prefersDark =
       window.matchMedia &&
@@ -20,8 +21,8 @@ const DarkMode = () => {
     return storedTheme || (prefersDark ? "dark" : "light");
   });
 
-  // Apply theme on component mount or theme change
   useEffect(() => {
+    console.log("Applying theme:", theme);
     if (theme === "dark") {
       setDark();
     } else {
@@ -29,16 +30,23 @@ const DarkMode = () => {
     }
   }, [theme]);
 
-  // Toggle theme
   const toggleTheme = () => {
-    setTheme((prevTheme) => (prevTheme === "dark" ? "light" : "dark"));
+    const newTheme = theme === "dark" ? "light" : "dark";
+    console.log("Toggling theme to:", newTheme);
+    setTheme(newTheme);
   };
 
   return (
     <div className="toggle-theme-wrapper">
-      <button onClick={toggleTheme} id="theme-toggle">
-        {theme == "dark" ? "Light" : "Dark"}
-      </button>
+      <div onClick={toggleTheme} id="theme-toggle">
+        {theme === "dark" ? (
+          // <i className="fa-solid fa-sun">Sun</i> 
+         <img src={Sun} height={20} width={20} alt="" />
+        ) : (
+          // <i className="fa-solid fa-moon">Moon</i>
+          <img src={Moon} height={20} width={20} alt="" />
+        )}
+      </div>
     </div>
   );
 };

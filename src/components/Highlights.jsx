@@ -4,43 +4,48 @@ import "../styles/Highlights.css"
 function Highlights() {
   return (
     <>
+        <section className='highlights-section'>
+        <span className='highlight-main-heading'>Figures Don’t Lie</span>
+        <p className='highlight-heading'>Check what we have achieved so far
+        </p>
         <div class="highlights-container">
             <div class="highlight">
             <div class="icon">💰</div>
-            <h3>Low Cost</h3>
+            <h3> 3500+</h3>
             <ul>
-                <li>Competitive fee</li>
-                <li>Flexible rates</li>
+                <li>Candidate pool </li>
+                {/* <li>Flexible rates</li> */}
             </ul>
             </div>
             <hr/>
             <div class="highlight">
             <div class="icon">🏛️</div>
-            <h3>Permission Less</h3>
+            <h3>400+</h3>
             <ul>
-                <li>Open for integration</li>
-                <li>Run your own nodes</li>
+                <li>Resume shared</li>
+                {/* <li>Run your own nodes</li> */}
             </ul>
             </div>
             <hr/>
             <div class="highlight">
             <div class="icon">🔒</div>
-            <h3>Secure Data</h3>
+            <h3>300+</h3>
             <ul>
-                <li>Open source sheet</li>
-                <li>360 Security</li>
+                <li>Shortlisted profiles</li>
+                {/* <li>360 Security</li> */}
             </ul>
             </div>
             <hr/>
             <div class="highlight">
             <div class="icon">🎧</div>
-            <h3>24 X 7 Support</h3>
+            <h3>36</h3>
             <ul>
-                <li>Toll free number</li>
-                <li>Ticket systems</li>
+                <li>Hired candidates</li>
+                {/* <li>Ticket systems</li> */}
             </ul>
             </div>
         </div>
+        </section>
     </>
   )
 }

@@ -1,6 +1,7 @@
 .testimonial {
   background-color: var(--bg-color);
-  margin: 40px 100px 100px 100px;
+  /* margin: 40px 100px 100px 100px; */
+  padding: 40px 100px;
 }
 
 .testimonial-container {
@@ -24,7 +25,7 @@
 .testimonial-heading {
   font-size: 50px;
   font-weight: 600;
-  color: #222;
+  color: var(--text-color);
   /* text-transform: uppercase; */
   letter-spacing: 1px;
   max-width: 800px;
@@ -34,7 +35,7 @@
 
 .testimonial-quote {
   font-size: 32px;
-  color: hsl(0, 0%, 33%);
+  color: var(--text-color);
   padding-right: 40px;
   line-height: 3rem;
   border-bottom: 1px solid grey;
@@ -47,7 +48,7 @@
 
 .quote-mark {
   font-size: 48px;
-  color: #eee;
+  color: var(--text-color);
 }
 
 .testimonial-author {
@@ -72,7 +73,7 @@
 
 .author-name {
   font-size: 24px;
-  color: #333;
+  color: var(--text-color);
 }
 
 .author-title {
@@ -87,7 +88,7 @@
 
 .control-btn {
   font-size: 18px;
-  color: #333;
+  color: var(--text-color);
   background: none;
   border: 1px solid #ccc;
   padding: 10px 15px;
@@ -98,7 +99,7 @@
 }
 
 .control-btn:hover {
-  background-color: #f0f0f0;
+  background-color: var(--bg-color);
 }
 
 
@@ -162,7 +163,7 @@
 
 .rating-card {
   border-radius: 10px;
-  border: 1px solid rgb(220, 213, 213);
+  border: 1px solid var(--text-color);
   padding: 20px;
   border-radius: 25px;
   display: flex;
@@ -177,6 +178,7 @@
 .rating-score {
   font-size: 80px;
   font-weight: 300;
+  color: var(--text-color);
 }
 
 .rating-stars {
@@ -187,7 +189,7 @@
 
 .review-count {
   font-size: 1rem;
-  color: var(--bg-color);
+  color: var(--text-color);
 }
 
 .description {
@@ -196,5 +198,5 @@
   font-weight: 300;
   margin: 20px 0;
   padding: 0 10px;
-  color: #222;
+  color: var(--text-color);
 }

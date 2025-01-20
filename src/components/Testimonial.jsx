@@ -41,8 +41,9 @@ const TestimonialSlider = () => {
 
   return (
     <section className="testimonial">
-       <span className="testimonial-main-heading">Testimonials</span>
-       <div className="testimonial-heading">Read what they have to say about working with us</div>
+       <span className="testimonial-main-heading">Success Stories</span>
+       <div className="testimonial-heading">From Applicants to Employed!
+       </div>
       <div className="testimonial-container">
         {/* <div>
             <span className="testimonial-main-heading">Testimonials</span>

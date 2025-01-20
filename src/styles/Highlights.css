@@ -1,11 +1,39 @@
+.highlights-section{
+  /* margin: 40px 100px 100px 100px; */
+  padding: 40px 100px;
+  background-color: var(--bg-color);
+}
+
+.highlight-main-heading{
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: var(--main-heading);
+}
+
+.highlight-main-heading::before {
+  content: "✱";
+  margin-right: 0.5rem;
+}
+
+.highlight-heading{
+  font-size: 40px;
+    font-weight: 600;
+    color: var(--text-color);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+
 .highlights-container {
     display: flex;
     justify-content: space-between;
     padding: 3rem;
     border-radius: 20px;
     border: 1px solid rgb(220, 213, 213);
-    margin: 40px 100px 100px 100px;
     flex-wrap: wrap;
+    background-color: var(--bg-color);
   }
   
   .highlight {

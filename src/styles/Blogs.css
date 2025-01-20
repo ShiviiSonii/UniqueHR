@@ -1,5 +1,7 @@
 .blog-section{
-  margin: 40px 100px 100px 100px;
+  /* margin: 40px 100px 100px 100px; */
+  padding: 40px 100px;
+  background-color: var(--bg-color);
 }
 
 .blog-main-heading {
@@ -18,7 +20,7 @@
 .blog-heading {
   font-size: 40px;
   font-weight: 600;
-  color: #222;
+  color: var(--text-color);
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-top: 10px;
@@ -32,6 +34,7 @@
   font-size: 20px;
   font-weight: 700;
   text-transform: capitalize;
+  color: var(--text-color);
 }
 
 .custom-carousel {
@@ -47,7 +50,7 @@
   display: flex;
   align-items: flex-end;
   /* background: #343434 no-repeat center center / cover; */
-  background-color: rgb(252,252,252);
+  background-color: var(--bg-color);
   border: 1px solid rgb(220, 213, 213);
   border-radius: 16px;
   overflow: hidden;

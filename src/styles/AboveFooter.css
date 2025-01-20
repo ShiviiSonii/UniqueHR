@@ -6,7 +6,9 @@
   /* padding: 40px 20px; */
   /* background: linear-gradient(90deg, #ccd0d3 0%, #c9c6cc 50%, #c7c2c7 100%); */
   /* box-shadow: 0px -5px 15px rgba(0, 0, 0, 0.1); */
-  margin: 40px 100px 40px 100px;
+  /* margin: 40px 100px 40px 100px; */
+  padding: 40px 100px;
+  background-color: var(--bg-color);
 }
 
 .cta .container {
@@ -23,7 +25,7 @@
 }
 
 .cta p {
-  color: #34495e;
+  color: var(--text-color);
   line-height: 2.5rem;
   font-size: 24px;
   margin-bottom: 30px;
@@ -36,12 +38,11 @@
   border-radius: 30px;
   padding: 12px 30px;
   text-decoration: none;
-  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
   transition: all 0.3s ease-in-out;
 }
 
 .cta .btn:hover {
-  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 8px 12px var(--text-color);
   transform: translateY(-3px);
 }
 

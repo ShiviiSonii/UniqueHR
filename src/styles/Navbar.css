@@ -18,6 +18,12 @@
   box-sizing: border-box; 
 }
 
+.theme-menu{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
   .nav-bar.sticky {
     background-color: var(--bg-color);
     /* transition: 0.25s all;   */
@@ -35,7 +41,7 @@
   .nav {
     padding: 20px 20px;
     color: var(--text-color);
-    margin: 0 40px;
+    margin: 0 10px;
     text-align: center;
     text-decoration: none;
     cursor: pointer;

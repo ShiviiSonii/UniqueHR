@@ -1,5 +1,5 @@
 .footer {
-  background-color: #2c2c2c;
+  background-color: var(--bg-color);
   color: var(--bg-color);
   width: 100%;
   font-family: Arial, sans-serif;
@@ -30,7 +30,7 @@
 .footer-address p {
   margin: 5px 0;
   font-size: 14px;
-  color: #cccccc;
+  color: var(--text-color);
 }
 
 .footer-phone {
@@ -47,7 +47,7 @@
   margin-bottom: 15px;
   font-size: 20px;
   text-transform: uppercase;
-  color: var(--bg-color);
+  color: var(--text-color);
 }
 
 .footer-section ul {
@@ -61,7 +61,7 @@
 }
 
 .footer-section ul li a {
-  color: #cccccc;
+  color: var(--text-color);
   text-decoration: none;
   font-size: 14px;
   transition: color 0.3s;
@@ -76,13 +76,13 @@
   gap: 10px;
   padding-top: 20px;
   padding: 2% 6%;
-  background-color: #1a1a1a;
+  background-color: var(--bg-color);
 }
 
 
 .social-links a {
   margin-right: 15px;
-  color: #cccccc;
+  color: var(--text-color);
   text-decoration: none;
   font-size: 16px;
   transition: color 0.3s;
@@ -95,7 +95,7 @@
 .footer-bottom p {
   margin: 0;
   font-size: 14px;
-  color: #cccccc;
+  color: var(--text-color);
 }
 
 @media (min-width:769px) and (max-width: 1024px) {
