@@ -44,7 +44,7 @@ const DarkMode = () => {
          <img src={Sun} height={20} width={20} alt="" />
         ) : (
           // <i className="fa-solid fa-moon">Moon</i>
-          <img src={Moon} height={20} width={20} alt="" />
+          <img src={Moon} height={20} width={20} alt=""/>
         )}
       </div>
     </div>

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import "../styles/Navbar.css";
 import MenuIcon from "../assets/menu.png";
+import LightMenuIcon from "../assets/lightmenu.png";
 import { Link } from 'react-router-dom';
 import Sidebar from './Sidebar.jsx';  
 import DarkMode from './DarkMode.jsx';
@@ -43,13 +44,14 @@ function Navbar() {
         <div className='theme-menu'>
         <DarkMode/>
         <img 
-          src={MenuIcon} 
-          alt="Menu Icon" 
-          height={20} 
-          width={20} 
-          className='nav' 
-          onClick={toggleSidebar}  
-        />
+  src={document.documentElement.getAttribute('data-theme') === 'dark' ? LightMenuIcon : MenuIcon} 
+  alt="Menu Icon" 
+  height={20} 
+  width={20} 
+  className="nav" 
+  onClick={toggleSidebar}  
+/>
+
         </div>
       </div>
 

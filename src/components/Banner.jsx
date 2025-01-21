@@ -1,35 +1,27 @@
 import React, { useState, useEffect } from 'react';
 import Navbar from "./Navbar";
 import "../styles/Banner.css";
-import BannerImg from "../assets/banner-img.png";
 
 function Banner() {
-  const [textIndex, setTextIndex] = useState(0);
-  const sliderTexts = ["new", "exciting", "rewarding"];
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setTextIndex((prevIndex) => (prevIndex + 1) % sliderTexts.length);
-    }, 2000); // Change text every 2 seconds
-    return () => clearInterval(interval); // Cleanup on component unmount
-  }, []);
 
   return (
     <>
       <Navbar />
       <div className="banner">
         <div className="content">
-          <div className="content-banner">
-            <h1>Land a better, higher paying, exciting, more fun JOB!</h1>
-            <p>
-              Your dream job is out there – and it’s hiring!
-              <br/>
-              Ready for something <span className="highlight">{sliderTexts[textIndex]}?</span>
-            </p>
-            <button className="banner-btn">Sign Up for Free</button>
+          <div className='content-1'>
+            <img src="https://infolio1.themescamp.com/creative-agency/wp-content/uploads/sites/5/2023/12/02.jpg" alt=""  className='left-img-banner'/>
+            <div>
+              <h4 className='content-1-text'>6K+</h4>
+              <p className='content-1-desc'>SATISFIED CLIENTS</p>
+            </div>
           </div>
-          <div className="content-img">
-            <img src={BannerImg} alt="Career Opportunities" />
+          <div className='content-2'>
+            <h1 className='content-text'>We design <br/> unique <br/> digital <br/> experience</h1>
+            <p className='content-desc'>Our team of experts is dedicated to helping you achieve your digital goals. From website design and development to SEO, PPC advertising, and social media marketing.</p>
+          </div>
+          <div className='content-3'>
+            <img src="https://infolio1.themescamp.com/creative-agency/wp-content/uploads/sites/5/2023/12/03.jpg" alt="" className='right-img-banner' />
           </div>
         </div>
       </div>

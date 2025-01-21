@@ -64,10 +64,10 @@
     font-size: 14px;
     line-height: 22px;
     font-weight: 300;
-    color: var(--text-color);
+    color: var(--p-color);
     border-top: 1px dashed #ddd;
     padding: 25px 20px 25px;
-    background-color: #ffffffec;
+    background-color: var(--bg-color);
     box-sizing: border-box;
 }
 .accordion-item input[type="checkbox"] {
