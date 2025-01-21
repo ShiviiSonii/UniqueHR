@@ -59,6 +59,7 @@
   
   .highlight ul li {
     margin: 0.5rem 0;
+    color: var(--main-heading);
   }
   
   .highlight ul li:before {
