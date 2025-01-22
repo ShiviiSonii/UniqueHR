@@ -73,7 +73,7 @@
 
 .item-desc {
   padding: 0 24px 12px;
-  color: var(--text-color);
+  color: var(--p-color);
   transform: translateY(calc(100% - 54px));
   transition: all 0.4s ease-in-out;
 }

@@ -64,7 +64,8 @@
     font-size: 14px;
     line-height: 22px;
     font-weight: 300;
-    color: var(--p-color);
+    color: var(--text-color);
+    border-radius: 6px;
     border-top: 1px dashed #ddd;
     padding: 25px 20px 25px;
     background-color: var(--bg-color);

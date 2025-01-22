@@ -1,8 +1,11 @@
+.process{
+  padding: 40px 100px;
+}
+
 .process-section {
     display: flex;
     height: 100vh;
     /* margin: 40px 100px 100px 100px; */
-    padding: 40px 100px;
     background-color: var(--bg-color);
 }
 
@@ -12,6 +15,16 @@
   text-transform: uppercase;
   font-weight: 400;
   color: var(--main-heading);
+  }
+
+.process-heading{
+  font-size: 50px;
+  font-weight: 600;
+  color: var(--text-color);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 20px;
+  margin-bottom: 40px;
   }
 
   .process-main-heading::before{
@@ -29,14 +42,6 @@
     color: var(--main-heading);
   }
 
-  .process-heading {
-    font-size: 40px;
-    font-weight: 600;
-    color: var(--text-color);
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    margin-top: 10px;
-  }
 
 .process-description {
     flex: 1; 
@@ -90,10 +95,6 @@
     background-color: var(--bg-color); 
 }
 
-
-.process-heading {
-    font-size: 30px;
-}
 
 h2, h3, h4 {
     color: var(--text-color); 

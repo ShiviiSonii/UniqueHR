@@ -40,8 +40,13 @@ function TopListing() {
 
   return (
     <div className="job-list">
+      <div>
       <span className='listing-main-heading'>Dream Role!</span>
+      <div className='listing-right-section'>
       <p className='listing-heading'>See if you are one of them</p>
+      <button className='listing-button'>View More</button>
+      </div>
+      </div>
       <div className='job-grids'>
       {jobs.map((job, index) => (
         <div className="job-preview" key={index}>

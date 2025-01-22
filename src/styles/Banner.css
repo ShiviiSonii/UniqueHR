@@ -8,7 +8,7 @@
     align-items: center;
     justify-content: center;
     /* padding: 0 20px; */
-    background-color: var(bg-color);
+    background-color: var(--bg-color);
     box-sizing: border-box;
     color: var(--text-color);
     padding: 40px 100px;
@@ -52,10 +52,9 @@
 }
 
 .content-2{
-    border: 1px solid rgb(225, 211, 211);
+    border: 1px solid var(--p-color);
     border-top: none;
     border-bottom: none;
-    border-right: none;
     margin-right: 20px;
 }
 
@@ -110,7 +109,7 @@
     animation: rotate 10s linear infinite;
     font-size: 0.8rem;
     font-weight: bold;
-    color: #333;
+    color: var(--text-color);
   }
   
   .icon-container {
@@ -128,9 +127,6 @@
     color: var(--text-color);
   }
 
-  .divider{
-    border: 1px solid rgb(220, 213, 213);
-  }
 
   @keyframes rotate {
     0% {

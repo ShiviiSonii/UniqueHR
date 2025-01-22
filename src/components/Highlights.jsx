@@ -8,7 +8,7 @@ function Highlights() {
         <span className='highlight-main-heading'>Figures Don’t Lie</span>
         <p className='highlight-heading'>Check what we have achieved so far
         </p>
-        <div class="highlights-container">
+        <div class="highlights-container scale-up-bl">
             <div class="highlight">
             <div class="icon">💰</div>
             <h3> 3500+</h3>
