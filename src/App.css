@@ -33,3 +33,111 @@ body {
 ::-webkit-scrollbar-track:hover {
   background-color: #e1e1e1; /* Darker color for the track when hovered */
 }
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.popup-content {
+  background: var(--bg-color);
+  padding: 35px;
+  border-radius: 10px;
+  width: 450px;
+  max-width: 90%;
+  text-align: left;
+  box-shadow: 0px 6px 25px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+}
+
+.popup-content h2 {
+  /* margin-bottom: 20px; */
+  font-size: 23px;
+  font-weight: 600;
+  color: var(--text-color);
+  margin: 0px;
+}
+
+.popup-content p {
+  font-size: 16px;
+  color: var(--p-color);
+  margin-bottom: 25px;
+  line-height: 1.6;
+}
+
+.popup-header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.popup-content form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.popup-content label {
+  font-size: 16px;
+  color: var(--text-color);
+  margin-bottom: 5px;
+}
+
+.popup-content input, .popup-content textarea {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 15px;
+  color: #333;
+  width: 100%;
+  margin-top: 10px;
+  box-sizing: border-box; /* Ensures padding and border are included in the width */
+  transition: border-color 0.3s ease;
+  background-color: var(--bg-color);
+}
+
+.popup-content input:focus, .popup-content textarea:focus {
+  border-color: #007bff;
+  outline: none;
+  background-color: #fff;
+}
+
+.popup-content button {
+  padding: 10px 12px;
+  background-color: var(--text-color);
+  color: var(--bg-color);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+@media (max-width: 768px) {
+  .popup-content{
+    max-width: 75%;
+    padding: 25px;
+  }
+
+  .popup-content h2{
+    font-size: 18px;
+  }
+
+  .popup-content p{
+    font-size: 14px;
+  }
+
+  .popup-content label{
+    font-size: 14px;
+  }
+}
