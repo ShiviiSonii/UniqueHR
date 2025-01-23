@@ -71,7 +71,7 @@ function TopListing() {
               </span>
             </p>
           </div>
-          <Link to="/" className="btn-apply">
+          <Link to="/" className="btn-apply button">
             Apply
           </Link>
         </div>
