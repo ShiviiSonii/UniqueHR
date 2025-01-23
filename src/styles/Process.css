@@ -1,12 +1,12 @@
 .process{
   padding: 40px 100px;
+  background-color: var(--bg-color);
 }
 
 .process-section {
     display: flex;
     height: 100vh;
     /* margin: 40px 100px 100px 100px; */
-    background-color: var(--bg-color);
 }
 
 .process-main-heading {

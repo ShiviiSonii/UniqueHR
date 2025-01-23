@@ -10,40 +10,40 @@ const BlogSection = () => {
 
   const blogs = [
     {
-      title: "The Future of Web",
+      title: "Embracing Exhaustion",
       description:
-        "Web development is constantly evolving, and staying ahead of the curve is essential for developers. This blog covers the latest trends and technologies shaping the future.",
-      image: "",
+        "I used to think that exhaustion was a sign of failure or weakness. After all, who wants to admit they’re worn out? It felt like I was failing to keep up with the demands of life.", 
+        image: "",
     },
     {
-      title: "Mastering JavaScript",
+      title: "My Journey Through Life",
       description:
-        "JavaScript is one of the most popular programming languages in the world. This blog dives deep into advanced concepts and best practices for mastering JavaScript.",
-      image: "https://www.yudiz.com/codepen/expandable-animated-card-slider/js.jpg",
+        "  Touchwood, my life has been quite simple. I don't have any grand tales of overcoming adversity or navigating tumultuous struggles.",
+        image: "https://www.yudiz.com/codepen/expandable-animated-card-slider/js.jpg",
     },
     {
-      title: "React Tips and Tricks",
+      title: "The Curious Case of Remote Work: My Confessions",
       description:
-        "React is a powerful JavaScript library for building user interfaces. In this blog, we share tips and tricks to help you work more efficiently with React.",
-      image: "https://www.yudiz.com/codepen/expandable-animated-card-slider/react.jpg",
+        "  Starting a business is a rollercoaster of emotions, decisions, and learning curves. When we decided to embrace a fully remote work culture for our organization",
+        image: "https://www.yudiz.com/codepen/expandable-animated-card-slider/react.jpg",
     },
     {
-      title: "Understanding Node.js",
+      title: "Candidate Dropout – Recruiters’ Biggest Nightmare",
       description:
-        "Node.js has revolutionized backend development. This blog explores its core concepts and how to use it to build efficient and scalable applications.",
-      image: "https://www.yudiz.com/codepen/expandable-animated-card-slider/nodejs.jpg",
+        "  Picture this: a recruiter spends weeks hunting for the perfect candidate. After countless calls, interviews, and follow-ups, they finally find The One.",
+        image: "https://www.yudiz.com/codepen/expandable-animated-card-slider/nodejs.jpg",
     },
     {
-      title: "CSS Grid Layout",
+      title: "The Role of Technology and How Hireboost by Unique HR is Leading the Way",
       description:
-        "CSS Grid Layout is a powerful layout system that allows you to create complex designs with ease. Learn how to use it effectively in this blog.",
-      image: "https://www.yudiz.com/codepen/expandable-animated-card-slider/css-grid.jpg",
+        " Technology is reshaping the way businesses operate—and the HR domain is no exception. Gone are the days when HR professionals were buried under stacks of paperwork or spent countless hours managing recruitment and employee records",
+        image: "https://www.yudiz.com/codepen/expandable-animated-card-slider/css-grid.jpg",
     },
     {
-      title: "Exploring Cloud Computing",
+      title: "Employee Emotions : -The Heart of a Manager’s Impact",
       description:
-        "Cloud computing is transforming how businesses operate. This blog discusses the basics of cloud computing and the most popular platforms.",
-      image: "https://www.yudiz.com/codepen/expandable-animated-card-slider/cloud-computing.jpg",
+        "It is often said that employees don’t leave companies; they leave managers. This adage highlights a profound truth—the emotional connection employees feel in their workplace",
+        image: "https://www.yudiz.com/codepen/expandable-animated-card-slider/cloud-computing.jpg",
     },
   ];
 
@@ -57,7 +57,7 @@ const BlogSection = () => {
           <div
             key={index}
             className={`item ${index === 0 ? "active" : ""}`}
-            // style={{ backgroundImage: `url(${blog.image})` }}
+            style={{ backgroundImage: `url(${blog.image})` }}
             // style={{backgroundColor : "black" }}
             onClick={handleItemClick}
           >

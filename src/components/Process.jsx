@@ -1,6 +1,9 @@
 import React from 'react'
 import "../styles/Process.css"
 import ProcessImg from "../assets/process.png"
+import Number1 from "../assets/number-1.png"
+import Number2 from "../assets/number-2.png"
+import Number3 from "../assets/number-3.png"
 
 function Process() {
   return (
@@ -18,20 +21,21 @@ function Process() {
         <hr className='divider'/>
         <div class="process-list">
             <div class="process-item">
-                <i className="fa fa-check-circle fa-3x"></i>
+                {/* <i className="fa fa-check-circle fa-3x"></i> */}
+                <img src={Number1} alt="" height={50} />
                 <h4 className='process-item-heading'>Sign up for free
                 </h4>
                 <p className='process-item-description'>Hit that “Sign Up” button – no strings attached.</p>
             </div>
             <div class="process-item">
-                <i className="fa fa-check-circle fa-3x"></i>
+                <img src={Number2} alt="" height={50} />
                 <h4 className='process-item-heading'>Share your details
                 </h4>
                 <p className='process-item-description'>Fill in your info and upload your CV. We want to know what makes you awesome!
                 </p>
             </div>
             <div class="process-item">
-                <i className="fa fa-check-circle fa-3x"></i>
+                <img src={Number3} alt="" height={50} />
                 <h4 className='process-item-heading'>You’re ready to roll</h4>
                 <p className='process-item-description'>
                 You’re officially part of the crew. We'll keep the opportunities coming!</p></div>

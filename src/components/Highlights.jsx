@@ -1,5 +1,9 @@
 import React from 'react'
 import "../styles/Highlights.css"
+import Talent from "../assets/talent-pool.png"
+import Document from "../assets/document.png"
+import Niche from "../assets/niche.png"
+import Success from "../assets/success.png"
 
 function Highlights() {
   return (
@@ -10,7 +14,7 @@ function Highlights() {
         </p>
         <div class="highlights-container scale-up-bl">
             <div class="highlight">
-            <div class="icon">💰</div>
+            <img src={Talent} alt="" height={40} />
             <h3> 3500+</h3>
             <ul>
                 <li>Candidate pool </li>
@@ -19,7 +23,7 @@ function Highlights() {
             </div>
             <hr/>
             <div class="highlight">
-            <div class="icon">🏛️</div>
+            <img src={Document} alt="" height={40} />
             <h3>400+</h3>
             <ul>
                 <li>Resume shared</li>
@@ -28,7 +32,7 @@ function Highlights() {
             </div>
             <hr/>
             <div class="highlight">
-            <div class="icon">🔒</div>
+            <img src={Niche} alt="" height={40} />
             <h3>300+</h3>
             <ul>
                 <li>Shortlisted profiles</li>
@@ -37,7 +41,7 @@ function Highlights() {
             </div>
             <hr/>
             <div class="highlight">
-            <div class="icon">🎧</div>
+            <img src={Success} alt="" height={40} />
             <h3>36</h3>
             <ul>
                 <li>Hired candidates</li>
