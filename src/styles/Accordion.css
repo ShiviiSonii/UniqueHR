@@ -106,6 +106,10 @@
     .accordion h1 {
         font-size: 22px;
     }
+
+    .accordion-heading{
+        font-size: 30px;
+    }
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
