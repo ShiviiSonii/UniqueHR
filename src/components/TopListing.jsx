@@ -1,6 +1,7 @@
 import React from 'react';
 import "../styles/TopListing.css";
 import { Link } from 'react-router-dom';
+import NextIcon from "../assets/next.png"
 
 function TopListing() {
   const jobs = [
@@ -44,7 +45,7 @@ function TopListing() {
       <span className='listing-main-heading'>Dream Role!</span>
       <div className='listing-right-section'>
       <p className='listing-heading'>See if you are one of them</p>
-      <button className='listing-button'>View More</button>
+      <button className='listing-button'><span>View More</span><img src={NextIcon} height={26}/></button>
       </div>
       </div>
       <div className='job-grids'>
