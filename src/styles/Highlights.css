@@ -133,6 +133,10 @@
 
     .highlights-container{
       /* margin: 40px 70px 100px 70px; */
+      /* padding: 40px 70px; */
+    }
+
+    .highlights-section{
       padding: 40px 70px;
     }
   }

@@ -119,6 +119,31 @@
     .content{
         flex-direction: column;
     }
+
+    .banner {
+        padding: 40px 70px;
+    }
+
+    .content-1{
+        display: none;
+    }
+
+    .content-2{
+        border: none;
+    }
+
+    .content-text{
+        padding: 0px;
+        padding-top: 80px;
+    }
+
+    .content-desc{
+        margin: 0px;
+    }
+
+    .circle{
+        margin-top: 20px;
+    }
 }
 
 
