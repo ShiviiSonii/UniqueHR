@@ -24,7 +24,7 @@ export const CircularText = () => {
 function Banner() {
 
   const [textIndex, setTextIndex] = useState(0);
-  const sliderTexts = ["better", "higher paying", "exciting"];
+  const sliderTexts = ["better", "higher paying", "exciting", "more fun job"];
   useEffect(() => {
     const interval = setInterval(() => {
       setTextIndex((prevIndex) => (prevIndex + 1) % sliderTexts.length);
@@ -46,7 +46,7 @@ function Banner() {
             </div>
           </div>
           <div className='content-2'>
-            <h1 className='content-text'>Land a <span className="highlight">{sliderTexts[textIndex]},</span><br/> more fun JOB!</h1>
+            <h1 className='content-text'>Land a <span className="highlight">{sliderTexts[textIndex]}</span></h1>
             <p className='content-desc'>Your dream job is out there – and it’s hiring!
               <br/>
             Ready for something new, exciting, and rewarding?
