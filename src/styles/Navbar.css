@@ -50,6 +50,8 @@
   .nav-logo{
     height: 8vh;
     margin-left: 40px;
+    background-color: #fff;
+    border-radius: 5px;
   }
   
   .nav-list {

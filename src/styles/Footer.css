@@ -24,8 +24,9 @@
   min-width: 200px;
 }
 
-.footer-logo {
-  background-color: var(--bg-color);
+[data-theme="dark"] .footer-logo {
+  background-color: var(--text-color);
+  border-radius: 5px;
 }
 
 .footer-address p {
