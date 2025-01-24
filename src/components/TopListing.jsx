@@ -6,35 +6,35 @@ import NextIcon from "../assets/next.png"
 function TopListing() {
   const jobs = [
     {
-      title: "Senior Web Designer",
-      company: "Seattle, WA",
+      title: "Social Media Coordinator",
+      company: "Hyderabad",
       locationType: "Onsite",
       jobType: "Full-Time",
-      experience: "3-5 Years",
+      experience: "1 Year",
       postedAt : "3 hours ago"
     },
     {
-      title: "Front-End Engineer",
-      company: "New York, NY",
-      locationType: "Remote",
-      jobType: "Contract",
-      experience: "2-4 Years",
+      title: "Customer Success Executive",
+      company: "Pune",
+      locationType: "Onsite",
+      jobType: "Full Time",
+      experience: "3-5 Years",
       postedAt : "1 week ago"
     },
     {
-      title: "UI/UX Designer",
-      company: "Los Angeles, CA",
+      title: "Talent Acquisition Specialist",
+      company: "Hyderabad",
       locationType: "Hybrid",
       jobType: "Part-Time",
-      experience: "1-3 Years",
+      experience: "1+ Years",
       postedAt : "2 weeks ago"
     },
     {
-      title: "UI/UX Designer",
-      company: "Los Angeles, CA",
-      locationType: "Hybrid",
-      jobType: "Part-Time",
-      experience: "1-3 Years",
+      title: "Oracle HCM Technical Consultant",
+      company: "Hyderabad",
+      locationType: "Onsite",
+      jobType: "Full-Time",
+      experience: "6+ Years",
       postedAt : "2 weeks ago"
     },
   ];
