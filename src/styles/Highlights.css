@@ -23,7 +23,8 @@
     font-weight: 600;
     color: var(--text-color);
     letter-spacing: 1px;
-    margin-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 
 .highlights-container {
