@@ -12,6 +12,11 @@
 background: radial-gradient(circle, rgba(231,231,231,1) 0%, rgba(253,246,247,1) 100%);
 }
 
+[data-theme="dark"] .cta{
+  background: rgb(85,81,81);
+background: radial-gradient(circle, rgba(85,81,81,1) 0%, rgba(18,16,16,1) 100%);
+}
+
 .cta .container {
   margin: 0 auto;
   max-width: 950px;
@@ -26,7 +31,7 @@ background: radial-gradient(circle, rgba(231,231,231,1) 0%, rgba(253,246,247,1) 
 }
 
 .cta p {
-  color: black;
+  color: var(--text-color);
   line-height: 2.5rem;
   font-size: 24px;
   margin-bottom: 30px;

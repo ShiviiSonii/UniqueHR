@@ -13,7 +13,7 @@
 }
 
 .listing-button{
-  background-color: var(--bg-color);
+    background-color: var(--bg-color);
     color: var(--text-color);
     padding: 15px;
     border: none;
@@ -40,10 +40,9 @@
 }
 
 .listing-heading {
-  font-size: 40px;
+  font-size: 50px;
   font-weight: 600;
   color: var(--text-color);
-  text-transform: uppercase;
   letter-spacing: 1px;
   margin-top: 10px;
 }
@@ -63,11 +62,15 @@
   justify-content: space-between;
   align-items: flex-start;
   background: var(--bg-color);
-  border: 1px solid #d7e2e9;
+  border: 1px solid #dcd5d5;
   border-radius: 0.4rem;
   padding: 1.5rem 2rem;
   transition: all 0.3s ease 0s;
   flex-wrap: wrap; 
+}
+
+[data-theme="dark"] .job-preview {
+  border: 1px solid #555;
 }
 
 .job-grids{
@@ -120,7 +123,7 @@
 }
 
 [data-theme="dark"] .btn-apply{
-  box-shadow: 0 8px 8px rgba(248, 244, 244, 0.2), 0 1px 3px rgba(247, 237, 237, 0.15);
+  box-shadow: 0 4px 6px rgba(248, 244, 244, 0.2), 0 1px 3px rgba(247, 237, 237, 0.15);
 }
 
 .btn-apply:hover {

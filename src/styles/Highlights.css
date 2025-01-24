@@ -19,10 +19,9 @@
 }
 
 .highlight-heading{
-  font-size: 40px;
+  font-size: 50px;
     font-weight: 600;
     color: var(--text-color);
-    text-transform: uppercase;
     letter-spacing: 1px;
     margin-top: 10px;
 }
@@ -32,11 +31,15 @@
     justify-content: space-between;
     padding: 3rem;
     border-radius: 20px;
-    border: 1px solid rgb(220, 213, 213);
+    border: 1px solid #dcd5d5;
     flex-wrap: wrap;
     background-color: var(--bg-color);
   }
   
+  [data-theme="dark"] .highlights-container {
+    border: 1px solid #555;
+  }
+
   .highlights-container:hover {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow effect */
     transform: scale(1.05); /* Slightly enlarges the element for a dynamic effect */

@@ -10,7 +10,7 @@ function Highlights() {
     <>
         <section className='highlights-section'>
         <span className='highlight-main-heading'>Figures Don’t Lie</span>
-        <p className='highlight-heading'>Check what we have achieved so far
+        <p className='highlight-heading'>Check What We Have Achieved So Far
         </p>
         <div class="highlights-container scale-up-bl">
             <div class="highlight">

@@ -44,7 +44,7 @@ function TopListing() {
       <div>
       <span className='listing-main-heading'>Dream Role!</span>
       <div className='listing-right-section'>
-      <p className='listing-heading'>See if you are one of them</p>
+      <p className='listing-heading'>See If You Are One Of Them</p>
       <button className='listing-button'><span>View More</span><img src={NextIcon} height={26}/></button>
       </div>
       </div>

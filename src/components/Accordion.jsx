@@ -5,7 +5,7 @@ function Accordion() {
   return (
     <div className='accordion-container'>
         <span className='accordion-main-heading'>Commonly Asked</span>
-        <p className='accordion-heading'>Let us clear your doubts
+        <p className='accordion-heading'>Let Us Clear Your Doubts
         </p>
         <div class="accordion">
             <div class="accordion-item">
