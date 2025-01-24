@@ -66,6 +66,7 @@
     display: none;
     font-size: 14px;
     line-height: 22px;
+    letter-spacing: 1px;
     font-weight: 300;
     color: var(--text-color);
     border-radius: 6px;
