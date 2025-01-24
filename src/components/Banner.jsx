@@ -24,10 +24,16 @@ export const CircularText = () => {
 function Banner() {
 
   const [textIndex, setTextIndex] = useState(0);
+  const [isAnimating, setIsAnimating] = useState(false);
+
   const sliderTexts = ["better", "higher paying", "exciting", "more fun job"];
   useEffect(() => {
     const interval = setInterval(() => {
-      setTextIndex((prevIndex) => (prevIndex + 1) % sliderTexts.length);
+      setIsAnimating(true);
+      setTimeout(() => {
+        setTextIndex((prevIndex) => (prevIndex + 1) % sliderTexts.length);
+        setIsAnimating(false); // Reset animation
+      }, 600); 
     }, 5000); 
     return () => clearInterval(interval); 
   }, []);
@@ -46,7 +52,9 @@ function Banner() {
             </div>
           </div>
           <div className='content-2'>
-            <h1 className='content-text'>Land a <span className="highlight">{sliderTexts[textIndex]}</span></h1>
+            <h1 className='content-text'>Land a <span className={`highlight ${
+                  isAnimating ? "tracking-out-contract" : "tracking-in-expand"
+                }`}>{sliderTexts[textIndex]}</span></h1>
             <p className='content-desc'>Your dream job is out there – and it’s hiring!
               <br/>
             Ready for something new, exciting, and rewarding?
