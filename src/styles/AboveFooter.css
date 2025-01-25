@@ -27,29 +27,69 @@ background: radial-gradient(circle, rgba(85,81,81,1) 0%, rgba(18,16,16,1) 100%);
   font-size: 48px;
   font-weight: 700;
   line-height: 3.5rem;
-  margin-bottom: 20px;
+  margin: 0px;
 }
 
 .cta p {
   color: var(--text-color);
   line-height: 2.5rem;
   font-size: 24px;
-  margin-bottom: 30px;
 }
 
-.cta .btn {
-  background-color: var(--bg-color);
-  color: var(--text-color);
-  font-size: 20px;
-  border-radius: 30px;
-  padding: 12px 30px;
-  text-decoration: none;
-  transition: all 0.3s ease-in-out;
+.ctas{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
 }
 
-.cta .btn:hover {
-  box-shadow: 0px 8px 12px var(--text-color);
-  transform: translateY(-3px);
+[data-theme="dark"] .footer-cta{
+  box-shadow: 0 4px 6px rgba(248, 244, 244, 0.2), 0 1px 3px rgba(247, 237, 237, 0.15);
+}
+
+.footer-cta:hover {
+  background: linear-gradient(135deg, #e6e6e6, #cccccc);
+  color: #222;
+  border-color: #b3b3b3;
+  box-shadow: 0 6px 8px rgba(255, 255, 255, 0.3), 0 2px 4px rgba(255, 255, 255, 0.2);
+  transform: translateY(-2px);
+}
+
+.footer-cta:active {
+  transform: translateY(1px);
+  box-shadow: 0 3px 5px rgba(255, 255, 255, 0.2), 0 1px 2px rgba(255, 255, 255, 0.15);
+}
+
+.footer-cta:focus {
+  outline: 3px solid #cccccc;
+  outline-offset: 3px;
+}
+
+.footer-cta:disabled {
+  background: linear-gradient(135deg, #f9f9f9, #f2f2f2);
+  color: #aaa;
+  border: 2px solid #ddd;
+  cursor: not-allowed;
+  opacity: 0.6;
+  box-shadow: 0 2px 3px rgba(255, 255, 255, 0.1);
+}
+
+.footer-cta{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    background: linear-gradient(135deg, #f2f2f2, #e6e6e6);
+    color: #333;
+    border: 2px solid #d9d9d9;
+    padding: 0.6rem 1rem;
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(52, 50, 50, 0.2), 0 1px 3px rgba(237, 233, 233, 0.15);
 }
 
 @media (min-width:769px) and (max-width: 1024px) {
@@ -68,10 +108,6 @@ background: radial-gradient(circle, rgba(85,81,81,1) 0%, rgba(18,16,16,1) 100%);
     line-height: 2.2rem;
   }
 
-  .cta .btn {
-    font-size: 18px;
-    padding: 10px 25px;
-  }
 }
 
 @media (max-width: 768px) {
@@ -92,8 +128,7 @@ background: radial-gradient(circle, rgba(85,81,81,1) 0%, rgba(18,16,16,1) 100%);
     line-height: 2rem;
   }
 
-  .cta .btn {
-    font-size: 16px;
-    padding: 8px 20px;
+  .footer-cta{
+    font-size: 10px;
   }
 }

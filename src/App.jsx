@@ -52,10 +52,10 @@ function App() {
          <div className="popup">
          <div className="popup-content">
             <div className='popup-header'>
-                <h2>Stay Updated With Our Latest News</h2>
+                <h2>Didn’t find what you were looking for?</h2>
                 <button onClick={() => setShowPopup(false)} className="close-btn">X</button>
            </div>
-           <p>We will send you updates and exciting offers directly to your inbox. Stay tuned for more!</p>
+           <p>Fill in the details and let us notify you when we find something for you</p>
            <form>
              <label>
                Name
@@ -68,9 +68,9 @@ function App() {
                <input type="tel" name="whatsapp" placeholder="Enter your WhatsApp number" required />
              </label>
              <label>
-               Message
+              Designation you are looking for
                <br/>
-               <textarea name="message" placeholder="Enter your message"></textarea>
+               <input name="message" type="text" placeholder="Enter your designation" required/>
              </label>
              <button type="submit">Submit</button>
            </form>

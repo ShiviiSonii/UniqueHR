@@ -60,7 +60,7 @@ body {
 
 .popup-content h2 {
   /* margin-bottom: 20px; */
-  font-size: 23px;
+  font-size: 22px;
   font-weight: 600;
   color: var(--text-color);
   margin: 0px;
@@ -104,12 +104,6 @@ body {
   box-sizing: border-box; /* Ensures padding and border are included in the width */
   transition: border-color 0.3s ease;
   background-color: var(--bg-color);
-}
-
-.popup-content input:focus, .popup-content textarea:focus {
-  border-color: #007bff;
-  outline: none;
-  background-color: #fff;
 }
 
 .popup-content button {
