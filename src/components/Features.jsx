@@ -48,7 +48,6 @@ function Features() {
             <p className="card-description">No unnecessary calls or emails. We’ll only contact you when there’s a genuine role worth your attention.</p>
           </div>
         </div>
-
       </div>
       </div>
     </section>

@@ -44,14 +44,13 @@ function Navbar() {
         <div className='theme-menu'>
         <DarkMode/>
         <img 
-  src={document.documentElement.getAttribute('data-theme') === 'dark' ? LightMenuIcon : MenuIcon} 
-  alt="Menu Icon" 
-  height={20} 
-  width={20} 
-  className="nav" 
-  onClick={toggleSidebar}  
-/>
-
+          src={document.documentElement.getAttribute('data-theme') === 'dark' ? LightMenuIcon : MenuIcon} 
+          alt="Menu Icon" 
+          height={20} 
+          width={20} 
+          className="nav" 
+          onClick={toggleSidebar}  
+        />
         </div>
       </div>
 

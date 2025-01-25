@@ -14,7 +14,7 @@ import Accordion from './components/Accordion.jsx';
 
 function App() {
   const [showPopup, setShowPopup] = useState(false);
-  const [popupDisplayed, setPopupDisplayed] = useState(false); // Tracks if the popup has already been displayed
+  const [popupDisplayed, setPopupDisplayed] = useState(false); 
 
   useEffect(() => {
     const handleScroll = () => {
@@ -24,7 +24,7 @@ function App() {
 
       if (scrollPercentage >= 60 && !popupDisplayed) {
         setShowPopup(true);
-        setPopupDisplayed(true); // Mark the popup as displayed
+        setPopupDisplayed(true); 
       }
     };
 

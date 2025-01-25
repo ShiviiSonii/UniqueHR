@@ -64,7 +64,7 @@ const BlogSection = () => {
             <div className="item-desc">
               <h3>{blog.title}</h3>
               <p>{blog.description}</p>
-              <button>View More</button>
+              <button href="#" target="_blank">View More</button>
             </div>
           </div>
         ))}

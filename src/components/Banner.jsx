@@ -22,7 +22,6 @@ export const CircularText = () => {
 };
 
 function Banner() {
-
   const [textIndex, setTextIndex] = useState(0);
   const [isAnimating, setIsAnimating] = useState(false);
 
@@ -32,7 +31,7 @@ function Banner() {
       setIsAnimating(true);
       setTimeout(() => {
         setTextIndex((prevIndex) => (prevIndex + 1) % sliderTexts.length);
-        setIsAnimating(false); // Reset animation
+        setIsAnimating(false);
       }, 600); 
     }, 5000); 
     return () => clearInterval(interval); 

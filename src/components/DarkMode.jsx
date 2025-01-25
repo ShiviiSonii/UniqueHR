@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-// import "@fortawesome/fontawesome-free/css/all.min.css"; // Ensure Font Awesome is loaded
 import Sun from "../assets/sun.png"
 import Moon from "../assets/moon.png"
 const setDark = () => {
@@ -22,7 +21,7 @@ const DarkMode = () => {
   });
 
   useEffect(() => {
-    console.log("Applying theme:", theme);
+    // console.log("Applying theme:", theme);
     if (theme === "dark") {
       setDark();
     } else {
@@ -32,7 +31,7 @@ const DarkMode = () => {
 
   const toggleTheme = () => {
     const newTheme = theme === "dark" ? "light" : "dark";
-    console.log("Toggling theme to:", newTheme);
+    // console.log("Toggling theme to:", newTheme);
     setTheme(newTheme);
   };
 
