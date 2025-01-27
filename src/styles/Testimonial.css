@@ -47,7 +47,8 @@
 }
 
 .testimonial-content {
-  max-width: 850px;
+  /* max-width: 850px; */
+  flex: 8;
 }
 
 .quote-mark {
@@ -106,6 +107,52 @@
   background-color: var(--bg-color);
 }
 
+.rating-card {
+  border-radius: 10px;
+  border: 1px solid #dcd5d5;
+  padding: 20px;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: var(--bg-color);
+  max-width: 360px;
+  flex: 4;
+  margin-right: 35px;
+}
+
+[data-theme="dark"] .rating-card{
+  border: 1px solid #555;
+}
+
+.rating-score {
+  font-size: 80px;
+  font-weight: 300;
+  color: var(--text-color);
+}
+
+.rating-stars {
+  font-size: 2rem;
+  margin: 10px 0;
+  color: var(--main-heading);
+}
+
+.review-count {
+  font-size: 1rem;
+  color: var(--text-color);
+}
+
+.description {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  font-weight: 300;
+  margin: 20px 0;
+  padding: 0 10px;
+  color: var(--text-color);
+}
+
 
 /* Responsive Styles */
 @media (min-width:769px) and (max-width: 1024px) {
@@ -138,6 +185,10 @@
     font-size: 30px;
   }
 
+  .rating-card{
+    margin-right: 0px;
+  }
+
   .testimonial{
     /* margin: 40px 20px 40px 20px; */
     padding: 40px 20px;
@@ -149,10 +200,15 @@
     flex-direction: column;
   }
 
+  .testimonial-content{
+    text-align: center;
+  }
+
   .testimonial-quote{
     font-size: 18px;
     line-height: 1.5rem;
     margin-top: 20px;
+    padding-right: 0px;
   }
 
   .testimonial-author{
@@ -162,51 +218,6 @@
 
   .author-info{
     text-align: center;
-    justify-content: flex-start
+    justify-content: center;
   }
-}
-
-
-.rating-card {
-  border-radius: 10px;
-  border: 1px solid #dcd5d5;
-  padding: 20px;
-  border-radius: 25px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  color: var(--bg-color);
-  max-width: 360px;
-}
-
-[data-theme="dark"] .rating-card{
-  border: 1px solid #555;
-}
-
-.rating-score {
-  font-size: 80px;
-  font-weight: 300;
-  color: var(--text-color);
-}
-
-.rating-stars {
-  font-size: 2rem;
-  margin: 10px 0;
-  color: var(--main-heading);
-}
-
-.review-count {
-  font-size: 1rem;
-  color: var(--text-color);
-}
-
-.description {
-  font-size: 1.2rem;
-  line-height: 1.5rem;
-  font-weight: 300;
-  margin: 20px 0;
-  padding: 0 10px;
-  color: var(--text-color);
 }
