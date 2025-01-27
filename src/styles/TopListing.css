@@ -158,7 +158,7 @@
 @media (max-width: 768px) {
   .job-preview {
     flex-direction: column; 
-    align-items: flex-start; 
+    align-items: center; 
   }
 
   .job-grids{
@@ -171,7 +171,6 @@
   }
 
   .btn-apply {
-    align-self: stretch; 
     text-align: center;
   }
   
