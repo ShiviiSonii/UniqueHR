@@ -56,14 +56,14 @@
   transition: all 0.4s ease-in-out;
   cursor: pointer;
   padding-bottom: 12px;
-  background: rgb(236,230,230);
-background: linear-gradient(0deg, rgba(236,230,230,1) 25%, rgba(180,146,94,1) 82%);
+  background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,1) 25%, rgba(239,239,239,1) 82%);
 }
 
 [data-theme="dark"] .item{
   border: 1px solid #555;
-  background: rgb(23,21,21);
-  background: linear-gradient(0deg, rgba(23,21,21,1) 25%, rgba(180,146,94,1) 82%);
+  background: rgb(75,73,70);
+background: linear-gradient(0deg, rgba(75,73,70,1) 25%, rgba(29,27,27,1) 82%);
 }
 
 .item.active {
