@@ -96,7 +96,7 @@
   color: var(--text-color);
   background: none;
   border: 1px solid #ccc;
-  padding: 10px 15px;
+  padding: 13px 15px;
   margin: 0 5px;
   border-radius: 50%;
   cursor: pointer;
@@ -182,7 +182,7 @@
 
 @media (max-width: 768px) {
   .testimonial-heading{
-    font-size: 30px;
+    font-size: 25px;
   }
 
   .rating-card{

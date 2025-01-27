@@ -13,7 +13,7 @@ export const CircularText = () => {
         </span>
       ))}
       <div className="icon-container">
-        <Link to={"https://youtu.be/mVtUlRpoCzs?si=rlYCdm9FWH6z5BMd"}>
+        <Link to={"https://youtu.be/mVtUlRpoCzs?si=rlYCdm9FWH6z5BMd"} target='_blank'>
           <i className="fa-solid fa-play"></i>
         </Link>
       </div>

@@ -1,13 +1,14 @@
 import React from 'react';
 import '../styles/Footer.css'; 
 import { Link } from 'react-router-dom';
+import Logo from "../assets/logo.jpg"
 
 const Footer = () => {
   return (
     <footer class="footer">
     <div class="footer-container">
-      <div class="footer-section">
-        <img src="https://www.uniquehr.in/img/logo-150.png" alt="logo" className='footer-logo'/>
+      <div class="footer-section footer-section-1">
+        <img src={Logo} alt="logo" className='footer-logo' height={"auto"} width={"60%"}/>
       </div>
       <div className='footer-section'>
       <div class="footer-address">

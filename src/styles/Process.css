@@ -168,7 +168,11 @@ p {
     }
 
     .process-heading{
-      font-size: 30px;
+      font-size: 25px;
+    }
+
+    .process-description-span{
+      font-size: 25px;
     }
   }
   

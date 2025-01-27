@@ -15,7 +15,7 @@
 .listing-button{
     background-color: var(--bg-color);
     color: var(--text-color);
-    padding: 15px;
+    /* padding: 15px; */
     border: none;
     font-size: 18px;
     display: flex;
@@ -157,8 +157,7 @@
 
 @media (max-width: 768px) {
   .job-preview {
-    flex-direction: column; 
-    align-items: center; 
+    flex-direction: column;  
   }
 
   .job-grids{
@@ -194,7 +193,7 @@
   }
 
   .listing-heading{
-    font-size: 30px;
+    font-size: 25px;
   }
 }
 

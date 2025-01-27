@@ -48,10 +48,9 @@
   }
 
   .nav-logo{
-    height: 8vh;
-    margin-left: 40px;
-    background-color: #fff;
-    border-radius: 5px;
+    width: 50px;
+    height: auto;
+    margin-left: 45px;
   }
   
   .nav-list {
