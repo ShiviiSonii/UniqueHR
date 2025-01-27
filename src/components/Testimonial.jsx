@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "../styles/Testimonial.css"
+import NextArrow from "../assets/next.png"
 
 const testimonials = [
   {
