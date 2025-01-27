@@ -169,11 +169,13 @@
     }
 
     .highlight-1{
-      border-bottom: 1px solid #dcd5d5;
       margin-bottom: 30px;
+      border: none;
+      border-bottom: 1px solid #dcd5d5;
     }
   
     [data-theme="dark"] .highlight-1{
+      border: none;
       border-bottom: 1px solid #555;
     }
   }
