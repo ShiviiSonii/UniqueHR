@@ -36,6 +36,14 @@
     flex-wrap: wrap;
     background-color: var(--bg-color);
   }
+
+  .highlight-1{
+    border-right: 1px solid #dcd5d5;
+  }
+
+  [data-theme="dark"] .highlight-1{
+    border-right: 1px solid #555;
+  }
   
   [data-theme="dark"] .highlights-container {
     border: 1px solid #555;
@@ -158,6 +166,15 @@
 
     .highlight-heading{
       font-size: 30px;
+    }
+
+    .highlight-1{
+      border-bottom: 1px solid #dcd5d5;
+      margin-bottom: 30px;
+    }
+  
+    [data-theme="dark"] .highlight-1{
+      border-bottom: 1px solid #555;
     }
   }
 

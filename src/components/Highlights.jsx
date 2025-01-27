@@ -13,7 +13,7 @@ function Highlights() {
         <p className='highlight-heading'>Check What We Have Achieved So Far
         </p>
         <div class="highlights-container scale-up-bl">
-            <div class="highlight">
+            <div class="highlight highlight-1">
             <img src={Talent} alt="" height={40} />
             <h3> 3500+</h3>
             <ul>
@@ -21,8 +21,7 @@ function Highlights() {
                 {/* <li>Flexible rates</li> */}
             </ul>
             </div>
-            <hr/>
-            <div class="highlight">
+            <div class="highlight highlight-1">
             <img src={Document} alt="" height={40} />
             <h3>400+</h3>
             <ul>
@@ -30,8 +29,7 @@ function Highlights() {
                 {/* <li>Run your own nodes</li> */}
             </ul>
             </div>
-            <hr/>
-            <div class="highlight">
+            <div class="highlight highlight-1">
             <img src={Niche} alt="" height={40} />
             <h3>300+</h3>
             <ul>
@@ -39,7 +37,6 @@ function Highlights() {
                 {/* <li>360 Security</li> */}
             </ul>
             </div>
-            <hr/>
             <div class="highlight">
             <img src={Success} alt="" height={40} />
             <h3>36</h3>
