@@ -1,12 +1,12 @@
 :root {
   --text-color : #1a1a1a;
-  --bg-color : #fff;
+  --bg-color : #fdf9f9;
   --main-heading : #b4925e;
   --p-color : #908787;
 }
 
 [data-theme="dark"] {
-  --text-color : #fff;
+  --text-color : #fdf9f9;
   --bg-color : #1a1a1a;
   /* --main-heading : #b4925e; */
 }

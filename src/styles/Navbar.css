@@ -52,6 +52,12 @@
     height: auto;
     margin-left: 45px;
   }
+
+  [data-theme="dark"] .nav-logo{
+    background-color: #fdf9f9;
+    padding: 2.5px;
+    border-radius: 50%;
+  }
   
   .nav-list {
     display: flex;

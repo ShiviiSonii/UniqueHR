@@ -2,14 +2,13 @@ import React from 'react';
 import '../styles/Footer.css'; 
 import { Link } from 'react-router-dom';
 import LightThemeLogo from "../assets/logo.png"
-import Logo from "../assets/logo.jpg"
 
 const Footer = () => {
   return (
     <footer class="footer">
     <div class="footer-container">
       <div class="footer-section footer-section-1">
-        <img src={document.documentElement.getAttribute('data-theme') === 'dark' ? Logo : LightThemeLogo} alt="logo" className='footer-logo' height={"auto"} width={"60%"}/>
+        <img src={LightThemeLogo} alt="logo" className='footer-logo' height={"auto"} width={"40%"}/>
       </div>
       <div className='footer-section'>
       <div class="footer-address">

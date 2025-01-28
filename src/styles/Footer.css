@@ -24,10 +24,11 @@
   min-width: 200px;
 }
 
-/* [data-theme="dark"] .footer-logo {
-  background-color: var(--text-color);
-  border-radius: 5px;
-} */
+[data-theme="dark"] .footer-logo {
+  background-color: #fdf9f9;
+  border-radius: 50%;
+  padding: 2.5px;
+}
 
 .footer-address p {
   margin: 5px 0;
