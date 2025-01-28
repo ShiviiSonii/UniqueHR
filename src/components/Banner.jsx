@@ -58,9 +58,15 @@ function Banner() {
           <div className='content-2'>
             <h1 className='content-text'>
               Land a{" "}
-              <span className={`highlight ${isAnimating ? "" : ""}`}>
+              {/* <span className={`highlight ${isAnimating ? "" : ""}`}>
                 {sliderTexts[textIndex]}
-              </span>
+              </span> */}
+              <div class="animation">
+                <div class="first"><div>better job</div></div>
+                <div class="second"><div>higher paying job</div></div>
+                <div class="third"><div>exciting job</div></div>
+                <div class="fourth"><div>more fun job</div></div>
+              </div>
             </h1>
             <p className='content-desc'>
               Your dream job is out there – and it’s hiring!

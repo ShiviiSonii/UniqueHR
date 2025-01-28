@@ -242,5 +242,48 @@
     }
   }
 
-  
-  
+  .animation {
+    height: 80px;
+    overflow: hidden;
+    /* font-size: 23px; */
+}
+
+.animation > div > div {
+    padding: 5px 10px;
+    font-size: 3rem;
+    /* margin-bottom: 2.81rem; */
+    /* height: 100px; */
+    display: inline-block;
+    border-radius: 3px;
+    margin-top: 0px;
+    color: #fff;
+}
+
+.animation div:first-child {
+    animation: text-animation 16s infinite; /* Updated for 4 sections */
+}
+
+.first div {
+    background-color: #555;
+}
+.second div {
+    background-color: #cca263;
+}
+.third div {
+    background-color: rgb(160, 139, 71);
+}
+.fourth div {
+    background-color: rgb(147, 133, 103);
+}
+
+@keyframes text-animation {
+    0% { margin-top: -30px; }
+    15% { margin-top: -30px; } 
+    25% { margin-top: -160px; } /* First to Second */
+    40% { margin-top: -160px; } 
+    50% { margin-top: -290px; } /* Second to Third */
+    65% { margin-top: -290px; } 
+    75% { margin-top: -420px; } /* Third to Fourth */
+    90% { margin-top: -420px; } 
+    100% { margin-top: -30px; } /* Reset */
+}
