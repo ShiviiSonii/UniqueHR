@@ -109,93 +109,8 @@
     font-weight: bold;
     transition: all 0.3s ease;
   }
-  
 
-  
-@media (max-width: 768px) {
-    .content {
-        flex-direction: column;
-        text-align: left;
-        height: fit-content;
-    }
-
-    .banner{
-        padding: 40px 20px;
-    }
-
-    .content-1{
-        display: none;
-    }
-
-    .content-2{
-        border: none;
-        margin: 0px;
-    }
-
-    .content-text{
-        font-size: 2.5rem;
-        padding: 0px;
-        letter-spacing: 0px;
-        line-height: 3.8rem;
-        margin-top: 25%;
-    }
-
-    .circle{
-        margin-top: 20px;
-    }
-
-    .right-img-banner{
-        margin-top: 30px;
-    }
-
-    .content-desc{
-        margin: 0px;
-        padding-top: 20px;
-    }
-
-    [data-theme="dark"] .content-2 {
-        border: none;
-    }
-}
-
-@media (min-width: 769px) and (max-width: 1024px) {
-    .content{
-        flex-direction: column;
-        height: auto;
-    }
-
-    .banner {
-        padding: 40px 70px;
-    }
-
-    .content-1{
-        display: none;
-    }
-
-    .content-2{
-        border: none;
-    }
-
-    [data-theme="dark"] .content-2 {
-        border: none;
-    }
-
-    .content-text{
-        padding: 0px;
-        padding-top: 80px;
-    }
-
-    .content-desc{
-        margin: 0px;
-    }
-
-    .circle{
-        margin-top: 20px;
-    }
-}
-
-
-.circle {
+  .circle {
     position: relative;
     width: 150px;
     height: 150px;
@@ -242,7 +157,7 @@
     }
   }
 
-  .animation {
+.animation {
     height: 220px; 
     overflow: hidden; 
     position: relative;
@@ -285,5 +200,132 @@
     75% { transform: translateY(-480px); }
     80% { transform: translateY(-720px); } 
     90% { transform: translateY(-720px); }
-    100% { transform: translateY(0); } /* Loop back to the first div */
+    100% { transform: translateY(0); } 
 }
+
+  
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column;
+        text-align: left;
+        height: fit-content;
+    }
+
+    .banner{
+        padding: 40px 20px;
+    }
+
+    .content-1{
+        display: none;
+    }
+
+    .content-2{
+        border: none;
+        margin: 0px;
+    }
+
+    .content-text{
+        font-size: 2.5rem;
+        padding: 0px;
+        letter-spacing: 0px;
+        line-height: 3.8rem;
+        margin-top: 25%;
+        text-align: center;
+    }
+
+    .circle{
+        margin-top: 20px;
+    }
+
+    .right-img-banner{
+        margin-top: 30px;
+    }
+
+    .content-desc{
+        margin: 0px;
+        padding-top: 20px;
+    }
+
+    [data-theme="dark"] .content-2 {
+        border: none;
+    }
+
+    .animation{
+        height: 80px;
+    }
+
+    .animation > div > div {
+        height: 80px;
+        font-size: 2.5rem;
+    }
+
+    @keyframes slide-animation {
+        0% { transform: translateY(0); }
+        25% { transform: translateY(0); }
+        30% { transform: translateY(-100px); }
+        55% { transform: translateY(-100px); }
+        60% { transform: translateY(-200px); } 
+        75% { transform: translateY(-200px); }
+        80% { transform: translateY(-300px); } 
+        90% { transform: translateY(-300px); }
+        100% { transform: translateY(0); } 
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .content{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .banner {
+        padding: 40px 70px;
+    }
+
+    .content-1{
+        display: none;
+    }
+
+    .content-2{
+        border: none;
+    }
+
+    [data-theme="dark"] .content-2 {
+        border: none;
+    }
+
+    .content-text{
+        padding: 0px;
+        padding-top: 80px;
+    }
+
+    .content-desc{
+        margin: 0px;
+    }
+
+    .circle{
+        margin-top: 20px;
+    }
+
+    .animation{
+        height: 120px;
+    }
+
+    .animation > div > div {
+        height: 120px;
+    }
+
+    @keyframes slide-animation {
+        0% { transform: translateY(0); }
+        25% { transform: translateY(0); }
+        30% { transform: translateY(-140px); }
+        55% { transform: translateY(-140px); }
+        60% { transform: translateY(-280px); } 
+        75% { transform: translateY(-280px); }
+        80% { transform: translateY(-420px); } 
+        90% { transform: translateY(-420px); }
+        100% { transform: translateY(0); } 
+    }
+}
+
+
