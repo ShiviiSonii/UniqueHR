@@ -24,7 +24,7 @@
   min-width: 200px;
 }
 
-[data-theme="dark"] .footer-logo {
+.footer-logo {
   background-color: #fdf9f9;
   border-radius: 50%;
   padding: 2.5px;
