@@ -71,11 +71,16 @@
     font-weight: 300;
     color: var(--text-color);
     border-radius: 6px;
-    border-top: 1px dashed #ddd;
+    border-top: 1px dashed #dcd5d5;
     padding: 25px 20px 25px;
     background-color: var(--bg-color);
     box-sizing: border-box;
 }
+
+[data-theme="dark"] .accordion-item-desc{
+    border-top: 1px dashed #555;
+}
+
 .accordion-item input[type="checkbox"] {
     position: absolute;
     height: 0;

@@ -6,6 +6,8 @@ import { Link } from 'react-router-dom';
 export const CircularText = () => {
   const text = "EXPLORE MORE EXPLORE MORE - ";
   return (
+    <>
+    <Link to={"https://youtu.be/mVtUlRpoCzs?si=rlYCdm9FWH6z5BMd"} target='_blank'>
     <div className="circle">
       {text.split("").map((letter, i) => (
         <span key={i} style={{ "--i": i, "--total": text.length }}>
@@ -18,6 +20,8 @@ export const CircularText = () => {
         </Link>
       </div>
     </div>
+    </Link>
+    </>
   );
 };
 
