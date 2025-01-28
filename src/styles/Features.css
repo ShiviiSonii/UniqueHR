@@ -114,6 +114,11 @@
   .feature-heading{
     font-size: 25px;
   }
+
+  .container-card {
+    padding: 20px;
+    align-items: center;
+  }
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
