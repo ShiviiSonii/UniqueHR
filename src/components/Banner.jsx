@@ -62,11 +62,12 @@ function Banner() {
                 {sliderTexts[textIndex]}
               </span> */}
               <div class="animation">
-                <div class="first"><div>better job</div></div>
-                <div class="second"><div>paying job</div></div>
-                <div class="third"><div>exciting job</div></div>
-                <div class="fourth"><div>more fun job</div></div>
+                <div class="first"><div>better</div></div>
+                <div class="second"><div>paying</div></div>
+                <div class="third"><div>exciting</div></div>
+                <div class="fourth"><div>more fun</div></div>
               </div>
+              {" "}job
             </h1>
             <p className='content-desc'>
               Your dream job is out there – and it’s hiring!
