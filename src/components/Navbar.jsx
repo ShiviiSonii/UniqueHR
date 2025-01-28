@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import "../styles/Navbar.css";
 import MenuIcon from "../assets/menu.png";
+import LightThemeLogo from "../assets/logo.png"
 import Logo from "../assets/logo.jpg"
 import LightMenuIcon from "../assets/lightmenu.png";
 import { Link } from 'react-router-dom';
@@ -34,7 +35,7 @@ function Navbar() {
   return (
     <>
       <div className={`nav-bar ${isSticky ? 'sticky slide-in-top' : ''}`}>
-        <img src={Logo} alt="logo" className='nav-logo'/>
+        <img src={document.documentElement.getAttribute('data-theme') === 'dark' ? Logo : LightThemeLogo}  alt="logo" className='nav-logo'/>
         <div className='nav nav-list'>
           <Link to={"/"} className='links active'>Home</Link>
           <Link to={"/jobs"} className='links'>Jobs</Link>
