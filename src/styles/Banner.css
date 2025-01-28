@@ -90,7 +90,7 @@
     font-size: 6.4rem;
     font-weight: 500;
     line-height: 6.5rem;
-    padding: 0px 30px 0px 30px;
+    padding: 10px;
     margin-bottom: 3%;
     letter-spacing: 5px;
 }
@@ -243,24 +243,24 @@
   }
 
   .animation {
-    height: 80px;
-    overflow: hidden;
-    /* font-size: 23px; */
+    height: 220px; 
+    overflow: hidden; 
+    position: relative;
+}
+
+.animation > div {
+    display: flex;
+    flex-direction: column; 
+    transform: translateY(0); 
+    animation: slide-animation 16s infinite ease-in-out;
 }
 
 .animation > div > div {
-    padding: 5px 10px;
-    font-size: 3rem;
-    /* margin-bottom: 2.81rem; */
-    /* height: 100px; */
-    display: inline-block;
+    height: 220px;
+    padding: 10px;
+    font-size: 6.4rem;
     border-radius: 3px;
-    margin-top: 0px;
     color: #fff;
-}
-
-.animation div:first-child {
-    animation: text-animation 16s infinite; /* Updated for 4 sections */
 }
 
 .first div {
@@ -276,14 +276,14 @@
     background-color: rgb(147, 133, 103);
 }
 
-@keyframes text-animation {
-    0% { margin-top: -30px; }
-    15% { margin-top: -30px; } 
-    25% { margin-top: -160px; } /* First to Second */
-    40% { margin-top: -160px; } 
-    50% { margin-top: -290px; } /* Second to Third */
-    65% { margin-top: -290px; } 
-    75% { margin-top: -420px; } /* Third to Fourth */
-    90% { margin-top: -420px; } 
-    100% { margin-top: -30px; } /* Reset */
+@keyframes slide-animation {
+    0% { transform: translateY(0); }
+    25% { transform: translateY(0); }
+    30% { transform: translateY(-240px); }
+    55% { transform: translateY(-240px); }
+    60% { transform: translateY(-480px); } 
+    75% { transform: translateY(-480px); }
+    80% { transform: translateY(-720px); } 
+    90% { transform: translateY(-720px); }
+    100% { transform: translateY(0); } /* Loop back to the first div */
 }

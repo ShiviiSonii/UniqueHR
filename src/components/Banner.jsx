@@ -63,7 +63,7 @@ function Banner() {
               </span> */}
               <div class="animation">
                 <div class="first"><div>better job</div></div>
-                <div class="second"><div>higher paying job</div></div>
+                <div class="second"><div>paying job</div></div>
                 <div class="third"><div>exciting job</div></div>
                 <div class="fourth"><div>more fun job</div></div>
               </div>
