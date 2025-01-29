@@ -16,7 +16,7 @@ const testimonials = [
     image: "https://infolio1.themescamp.com/startup/wp-content/uploads/sites/4/2023/11/t2.jpg",
   },
   {
-    text: "A fantastic team to work with! They understand the requirements perfectly and deliver solutions that are innovative and effective.",
+    text: "A fantastic team to work with They understand the requirements perfectly and deliver solutions that are innovative and effective.",
     name: "Michael Smith",
     title: "CTO",
     image: "https://infolio1.themescamp.com/startup/wp-content/uploads/sites/4/2023/11/t1.jpg",

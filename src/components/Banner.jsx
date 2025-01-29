@@ -74,7 +74,7 @@ function Banner() {
               {" "}job
             </h1>
             <p className='content-desc'>
-              Your dream job is out there – and it’s hiring!
+              Your dream job is out there – and it’s hiring
               <br />
               Ready for something new, exciting, and rewarding?
             </p>

@@ -8,7 +8,7 @@ import Number3 from "../assets/number-3.png"
 function Process() {
   return (
     <div className='process'>
-        <span className='process-main-heading'>Join Us!</span>
+        <span className='process-main-heading'>Join Us</span>
         <p className='process-heading'>Here Are The Steps To Be Part Of Our</p>
         <div class="process-section">
         <div class="process-description">
@@ -30,14 +30,14 @@ function Process() {
                 <img src={Number2} alt="" height={50} />
                 <h4 className='process-item-heading'>Share your details
                 </h4>
-                <p className='process-item-description'>Fill in your info and upload your CV. We want to know what makes you awesome!
+                <p className='process-item-description'>Fill in your info and upload your CV. We want to know what makes you awesome
                 </p>
             </div>
             <div class="process-item">
                 <img src={Number3} alt="" height={50} />
                 <h4 className='process-item-heading'>You’re ready to roll</h4>
                 <p className='process-item-description'>
-                You’re officially part of the crew. We'll keep the opportunities coming!</p>
+                You’re officially part of the crew. We'll keep the opportunities coming</p>
             </div>
         </div>
         </div>

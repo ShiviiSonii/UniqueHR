@@ -15,9 +15,9 @@ function Contact() {
         <form>
           <div className="form">
             <div className="form-txt">
-              <h1>LET'S MAKE YOUR BRAND BRILLIANT!</h1>
+              <h1>LET'S MAKE YOUR BRAND BRILLIANT</h1>
               <p className="form-text-p">
-                If you would like to work with us or just want to get in touch, we’d love to hear from you!
+                If you would like to work with us or just want to get in touch, we’d love to hear from you
               </p>
               <h3>USA</h3>
               <p>
