@@ -42,7 +42,7 @@ function Sidebar() {
               <Link to={"/services"}>PARTNERS</Link>
               <Link to={"/about"}>ABOUT</Link>
               <Link to={"/portfolio"}>JOBS</Link>
-              <Link to={"/team"}>CONTACT</Link>
+              <Link to={"/contact"}>CONTACT</Link>
               <Link to={"/team"}>BLOGS</Link>
             </nav>
             <div className="info-section">
