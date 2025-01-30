@@ -9,8 +9,8 @@ function AboveFooter() {
               <h1>Looking for a job or looking to hire?</h1>
               <p>Let's find you the perfect role and the perfect team, together.</p>
               <div className="ctas">
-              <button type="button" className="footer-cta"> Sign up now</button>
-              <button type="button" className="footer-cta">Partner with us</button>
+              <button class="custom-btn btn"><span>Sign up now</span></button>
+              <button class="custom-btn btn"><span>Partner with us</span></button>
               </div>
         </div>
       </section>
