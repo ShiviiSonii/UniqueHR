@@ -20,7 +20,7 @@ const Footer = () => {
       <div class="footer-section">
         <h3>Useful Links</h3>
         <ul>
-          <li><Link to={""}>About</Link></li>
+          <li><Link to={"/about"}>About</Link></li>
           <li><Link to={""}>Services</Link></li>
           <li><Link to={""}>Blog</Link></li>
           <li><Link to={"/contact"}>Contact</Link></li>
