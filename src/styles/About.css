@@ -1,0 +1,144 @@
+.about-content{
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--bg-color);
+}
+
+.about-main-heading {
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: var(--main-heading);
+}
+
+.about-main-heading::before {
+    content: "✱";
+    margin-right: 0.5rem;
+}
+
+.about-1{
+    flex: 6;
+}
+
+.about-2{
+    flex: 6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.about-text {
+    font-size: 50px;
+    font-weight: 600;
+    color: var(--text-color);
+    /* text-transform: uppercase; */
+    letter-spacing: 1px;
+    max-width: 800px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.about-p{
+    font-size: 1rem;
+    letter-spacing: 1.5px;
+    padding-right:20px;
+    margin-bottom: 60px;
+}
+
+.about-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 45px;
+    width: 100%;
+    margin-inline: auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 100%;
+}
+
+.about-card-title {
+    font-weight: 600;
+    color: var(--text-color);
+    font-size: 24px;
+    padding-top: 20px;
+    text-align: left;
+}
+  
+.about-card-description {
+    font-weight: 500;
+    color: var(--p-color);
+    font-size: 16px;
+    text-align: left;
+    line-height: 1.5rem;
+    margin-top: -8px;
+}
+  
+.about-container-card {
+    position: relative;
+    /* background: linear-gradient(71deg, #f0f0f0, #ffffff, #f0f0f0); */
+    background-clip: padding-box;
+    border-radius: 15px;
+    border: 1px solid #dcd5d5;
+    padding: 40px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 100%;
+}
+
+[data-theme="dark"] .about-container-card{
+    border: 1px solid #555;
+}
+
+@media (max-width: 768px) {
+    .about-content{
+        flex-direction: column;
+        padding: 40px 20px;
+    }
+
+    .about-text{
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    .about-p{
+        font-size: 0.8rem;
+        margin-bottom: 20px;
+    }
+
+    .about-1{
+        margin-bottom: 20px;
+    }
+
+    .about-2{
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 769px) and (max-width:1024px) {
+    .about-content{
+        flex-direction: column;
+        padding: 40px 70px;
+    }
+
+    .about-text{
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    .about-p{
+        font-size: 1rem;
+        margin-bottom: 20px;
+    }
+
+    .about-1{
+        margin-bottom: 30px;
+    }
+
+    .about-2{
+        flex-direction: column;
+    }
+}

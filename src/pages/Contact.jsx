@@ -48,7 +48,7 @@ function Contact() {
                 <option value="partnership">Looking for a partnership</option>
               </select>
               <textarea name="message" id="message" rows="7" cols="7" placeholder="Message" required></textarea>
-              <button type="submit">SEND MESSAGE</button>
+              <button type="submit" className='custom-btn btn'><span>SEND MESSAGE</span></button>
             </div>
           </div>
         </form>
