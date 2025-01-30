@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react';
 import './App.css';
 import Home from './pages/Home.jsx';
 import Contact from './pages/Contact.jsx';
+import About from './pages/About.jsx';
 
 function App() {
   const [showPopup, setShowPopup] = useState(false);
@@ -32,7 +33,8 @@ function App() {
       <BrowserRouter>
         <Routes>
         <Route path="/" index element={<Home/>}/>
-        <Route path="/contact" index element={<Contact/>}/>
+        <Route path="/contact" element={<Contact/>}/>
+        <Route path="/about" element={<About/>}/>
         </Routes>
         {showPopup && (
          <div className="popup">

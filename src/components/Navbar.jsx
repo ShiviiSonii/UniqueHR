@@ -3,7 +3,7 @@ import "../styles/Navbar.css";
 import MenuIcon from "../assets/menu.png";
 import LightThemeLogo from "../assets/logo.png"
 import LightMenuIcon from "../assets/lightmenu.png";
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import Sidebar from './Sidebar.jsx';  
 import DarkMode from './DarkMode.jsx';
 
@@ -36,11 +36,11 @@ function Navbar() {
       <div className={`nav-bar ${isSticky ? 'sticky slide-in-top' : ''}`}>
         <img src={LightThemeLogo}  alt="logo" className='nav-logo'/>
         <div className='nav nav-list'>
-          <Link to={"/"} className='links active'>Home</Link>
-          <Link to={"/jobs"} className='links'>Jobs</Link>
-          <Link to={"/about"} className='links'>About</Link>
-          <Link to={"/partners"} className='links'>Partners</Link>
-          <Link to={"/contact"} className='links'>Contact</Link>
+          <NavLink to={"/"} className={({ isActive }) => (isActive ? 'links active' : 'links')}>Home</NavLink>
+          <NavLink to={"/jobs"} className={({ isActive }) => (isActive ? 'links active' : 'links')}>Jobs</NavLink>
+          <NavLink to={"/about"} className={({ isActive }) => (isActive ? 'links active' : 'links')}>About</NavLink>
+          <NavLink to={"/partners"} className={({ isActive }) => (isActive ? 'links active' : 'links')}>Partners</NavLink>
+          <NavLink to={"/contact"} className={({ isActive }) => (isActive ? 'links active' : 'links')}>Contact</NavLink>
         </div>
         <div className='theme-menu'>
         <DarkMode/>

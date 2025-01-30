@@ -10,7 +10,7 @@ function Contact() {
   return (
     <>
       <Navbar />
-      <CommonBanner />
+      <CommonBanner page="Contact"/>
       <div className="contact-container">
         <form>
           <div className="form">
