@@ -37,6 +37,7 @@ function Contact() {
               </div>
             </div>
             <div className="form-details">
+              <h3 className='form-header'>Send a message</h3>
               <div className="form-details-inner">
                 <input type="text" name="name" id="name" placeholder="Name" required />
                 <input type="email" name="email" id="email" placeholder="Email" required />

@@ -18,13 +18,21 @@
 
 .form-txt h1{
     font-size: 50px;
-    margin-top: 0px;
-    font-weight: 500;
+    margin: 0px;
+    font-weight: 400;
+    letter-spacing: 2px;
     color: var(--text-color);
 }
 
 .form-text-p{
     font-size: 16px;
+    margin: 25px 0px;
+    letter-spacing: 1px;
+}
+
+.form-text p{
+    font-size: 16px;
+    letter-spacing: 2px;
 }
 
 .form-details {
@@ -32,12 +40,21 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    gap: 20px;
 }
 
 .form-details-inner {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
+}
+
+.form-header{
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    margin: 0px;
+    font-weight: 400;
+    letter-spacing: 2px;
 }
 
 .form-details-inner input {
@@ -118,10 +135,41 @@ textarea {
     }
 
     .form-txt h1{
-        font-size: 35px;
+        font-size: 32px;
     }
 
     .contact-container{
         padding: 40px 20px;
     }
+
+    .form-header{
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+}
+
+
+@media (min-width: 769px) and (max-width:1024px){
+    .contact-container {
+        padding: 40px 70px;
+    }
+
+    .form {
+        flex-direction: column;
+    }
+
+    .form-txt{
+        margin-right: 0px;
+        margin-bottom: 30px;
+        }
+    
+    
+        .form-txt, .form-details {
+            flex: 1 1 100%;
+            gap: 10px;
+        }
+        .form-details-inner input {
+            flex: 1 1 100%;
+        }
+    
 }
