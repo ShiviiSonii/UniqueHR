@@ -76,11 +76,36 @@
     font-weight: 800;
   }
 
-  .links:hover {
+  [data-theme="dark"] .links:hover {
     /* color: var(--main-heading); */
-    color: #fff;
+    color: var(--text-color);
     font-weight: 800;
     animation: hoverEffect 0.8s ease-in-out; /* Enhanced animation duration */
+  }
+
+  .links:hover {
+    /* color: var(--main-heading); */
+    color: var(--text-color);
+    font-weight: 800;
+    animation: lighthoverEffect 0.8s ease-in-out; /* Enhanced animation duration */
+  }
+
+  @keyframes lighthoverEffect {
+    0% {
+      text-shadow: 0 0 0px var(--p-color),
+                   0 0 0px var(--p-color),
+                   0 0 0px var(--p-color);
+    }
+    50% {
+      text-shadow: 0 0 2px var(--p-color),
+                   0 0 4px var(--p-color),
+                   0 0 6px var(--p-color);
+    }
+    100% {
+      text-shadow: 0 0 0px var(--p-color),
+                   0 0 0px var(--p-color),
+                   0 0 0px var(--p-color);
+    }
   }
   
   @keyframes hoverEffect {
