@@ -5,20 +5,39 @@ const FinisherHeader = () => {
   useEffect(() => {
     if (window.FinisherHeader) {
       new window.FinisherHeader({
-        count: 10,
-        size: { min: 500, max: 1500, pulse: 0 },  // Adjusted size for horizontal flow
-        speed: {
-          x: { min: 0.1, max: 0.6 }, // Speed of particles in the horizontal direction
-          y: { min: 0.1, max: 0.3 }, // Reduced vertical speed for horizontal flow
+        "count": 5,
+        "size": {
+          "min": 900,
+          "max": 1500,
+          "pulse": 0
         },
-        colors: {
-          background: "#605d62",
-          particles: ["#9b9393", "#c8c0c0", "#38393d", "#000000", "#e8dfdf"],
+        "speed": {
+          "x": {
+            "min": 0,
+            "max": 0.3
+          },
+          "y": {
+            "min": 0,
+            "max": 0
+          }
         },
-        blending: "overlay",
-        opacity: { center: 0.5, edge: 0.05 },
-        skew: 0,
-        shapes: ["c"],
+        "colors": {
+          "background": "#c8c8ca",
+          "particles": [
+            "#888d8e",
+            "#787676",
+            "#d4cece"
+          ]
+        },
+        "blending": "lighten",
+        "opacity": {
+          "center": 0.15,
+          "edge": 0.05
+        },
+        "skew": 0,
+        "shapes": [
+          "s"
+        ]
       });
     }
   }, []);
