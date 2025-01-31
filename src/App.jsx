@@ -4,6 +4,7 @@ import './App.css';
 import Home from './pages/Home.jsx';
 import Contact from './pages/Contact.jsx';
 import About from './pages/About.jsx';
+import Jobs from './pages/Jobs.jsx';
 
 function App() {
   const [showPopup, setShowPopup] = useState(false);
@@ -35,6 +36,7 @@ function App() {
         <Route path="/" index element={<Home/>}/>
         <Route path="/contact" element={<Contact/>}/>
         <Route path="/about" element={<About/>}/>
+        <Route path="/jobs" element={<Jobs/>}/>
         </Routes>
         {showPopup && (
          <div className="popup">

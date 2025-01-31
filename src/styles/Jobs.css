@@ -1,0 +1,60 @@
+.jobs-section {
+  padding: 40px 100px;
+  background-color: var(--bg-color);
+}
+
+.filter-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+  background-color: #fafafaec;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+[data-theme="dark"] .filter-section {
+  background-color: #1d1d1d;
+}
+
+input {
+  padding: 12px; /* Adds some internal padding for a better look */
+  margin: 0; /* Ensures no margin around the input fields */
+  width: 100%; /* This allows input to stretch but doesn't cause overflow */
+  box-sizing: border-box; /* Ensures padding doesn't affect the element's width */
+  background-color: #fafafaec;
+  border: none;
+  border-right: 1px solid #dcd5d5;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Adds smooth transition for focus effect */
+}
+
+input:focus {
+  border: none; /* Highlight the border with a blue color when focused */
+  border-right: 1px solid #dcd5d5;
+  outline: none; /* Removes default outline */
+}
+
+[data-theme="dark"] input {
+  background-color: #1d1d1d;
+  border-right: 1px solid #555;
+}
+
+[data-theme="dark"] input:focus {
+  border-right: 1px solid #555;
+}
+
+.filter-section-1 {
+  flex: 4;
+}
+
+.filter-section-2,
+.filter-section-4,
+.filter-section-3,
+.filter-section-5 {
+  flex: 2;
+}
+
+.filter-section-5 {
+  display: flex;
+  justify-content: space-around;
+}
