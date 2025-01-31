@@ -1,0 +1,15 @@
+.animation-style{
+    height: 420px;
+}
+
+@media (max-width:768px){
+    .animation-style{
+        height: 280px;
+    }
+}
+
+@media (min-width:769px) and (max-width:1024px){
+    .animation-style{
+        height: 280px;
+    }
+}
