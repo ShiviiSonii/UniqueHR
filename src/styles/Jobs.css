@@ -7,54 +7,106 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 0;
+  gap: 10px;
   background-color: #fafafaec;
   border-radius: 10px;
   padding: 10px;
+  flex-wrap: wrap;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
 }
 
 [data-theme="dark"] .filter-section {
   background-color: #1d1d1d;
+  box-shadow: 0 4px 10px rgba(180, 178, 178, 0.12);
 }
 
 input {
-  padding: 12px; /* Adds some internal padding for a better look */
-  margin: 0; /* Ensures no margin around the input fields */
-  width: 100%; /* This allows input to stretch but doesn't cause overflow */
-  box-sizing: border-box; /* Ensures padding doesn't affect the element's width */
+  padding: 12px;
+  width: 100%;
+  box-sizing: border-box;
   background-color: #fafafaec;
-  border: none;
-  border-right: 1px solid #dcd5d5;
-  transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Adds smooth transition for focus effect */
+  /* border: none; */
+  font-size: 1rem;
+  border-radius: 5px;
+  color: var(--text-color);
+  border: 1px solid #dcd5d5;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 input:focus {
-  border: none; /* Highlight the border with a blue color when focused */
   border-right: 1px solid #dcd5d5;
-  outline: none; /* Removes default outline */
+  /* outline: none; */
 }
 
 [data-theme="dark"] input {
   background-color: #1d1d1d;
-  border-right: 1px solid #555;
+  border: 1px solid #555;
 }
 
 [data-theme="dark"] input:focus {
-  border-right: 1px solid #555;
+  border: 1px solid #555;
 }
 
 .filter-section-1 {
   flex: 4;
+  min-width: 250px;
 }
 
 .filter-section-2,
-.filter-section-4,
 .filter-section-3,
+.filter-section-4,
 .filter-section-5 {
   flex: 2;
+  min-width: 200px;
 }
 
 .filter-section-5 {
   display: flex;
   justify-content: space-around;
+}
+
+
+.jobs-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 10px;
+  margin-top: 30px;
+  justify-content: center;
+}
+
+@media (min-width:769px) and (max-width: 1024px) {
+  .jobs-section {
+    padding: 40px 70px;
+  }
+
+  .filter-section-5{
+    justify-content: flex-start;
+    gap:5px;
+  }
+}
+
+@media (max-width: 768px) {
+  .jobs-section {
+    padding: 40px 20px;
+  }
+
+  .filter-section {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 5px;
+  }
+
+  .filter-section-1,
+  .filter-section-2,
+  .filter-section-3,
+  .filter-section-4 {
+    flex: unset;
+    width: 100%;
+  }
+
+  .filter-section-5{
+    justify-content: flex-start;
+    gap:5px;
+  }
+  
 }
